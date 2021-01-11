@@ -12,21 +12,10 @@ export default function Layout({ children}) {
       <div className={styles.container}>
         <Head>
           <link rel="icon" href="/favicon.ico"/>
-          {/* META DESCRIPTION START */}
           <meta
             name="Description"
             content="Learn how to builde a website"
           />
-          {/* <meta
-            property="og:image"
-            content=
-          /> */}
-          {/* <meta
-            name="og:title"
-            content="Dive Analytics - {}"
-          /> */}
-          {/* META DESCRIPTION END */}
-
         </Head>
         <header>
           <div className={styles.bannerLinear}><p className={utilStyles.sizeSubtitleText}>We are lauching a beta sooo blablablabla</p></div>
