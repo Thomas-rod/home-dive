@@ -1,0 +1,89 @@
+/* CONTAINER LAYOUT */
+.container {
+    width:100%;
+}
+
+/* BANNER TOP LAYOUT */
+.bannerLinear {
+    background: linear-gradient(92.76deg, #A7E8BD 19.4%, #FFD972 80.05%);
+    color:white; 
+    text-align:center;
+    padding: 1rem 0rem;
+}
+
+/* NAVIGATION MENU */
+
+.listNavigation {
+    display:flex;
+    width:100%;
+    margin:1rem 0rem;
+    justify-content:space-between;
+    align-items:flex-end;
+}
+.internalNavigation {
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-end;
+}
+.internalNavigation a {
+    display:block;
+    width:fit-content;
+    /* margin: 0px 2rem; */
+}
+.internalNavigation a:not(:first-child),
+.appNavigation {
+    margin:0rem 2rem 1rem 2rem;
+}
+
+.appNavigation {
+    margin-left:auto;
+}
+
+/* NAVIGATION MENU */
+
+.backgroundMainLayout {
+    z-index:-1;
+    position:fixed;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+}
+
+.bubbleHome {
+    position: absolute;
+    border-radius:50%;
+    filter: blur(100px);
+}
+.bubbleHomePurple {
+    width: 396px;
+    height: 396px;
+    left: 200px;
+    top: 209px;
+    background: #D2D6FA;
+}
+
+.bubbleHomeGreen {
+    width: 245px;
+    height: 245px;
+    right: 5%;
+    top: 30%;
+    background: #C7EAE4;
+}
+
+.bubbleHomeYellow {
+    width: 122px;
+    height: 122px;
+    left: 30%;
+    top: 90%;
+    background: #FFD972;
+}
+
+.bubbleHomeCoral {
+    width: 396px;
+    height: 396px;
+    left: 883px;
+    top:80%;
+    background: #FF8080;
+    filter: blur(100px);
+}
