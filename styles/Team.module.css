@@ -1,0 +1,31 @@
+.containerTeam {
+    width:70%;
+    margin: 5rem auto;
+    text-align:center;
+}
+
+.containerTeamPictures {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+    .teamPicturesList {
+
+    }
+
+        .itemTeamPicture {
+            margin: 0rem 2rem;
+        }
+        .itemTeamPicture p {
+            margin: .5rem 0rem;
+        }
+
+                .iconsContact {
+                    margin: 1rem 0rem;
+                    display:flex;
+                    justify-content:center;
+                    align-items:center;
+                }
+                .iconsContact li {
+                    margin: 0rem 1rem;
+                }
