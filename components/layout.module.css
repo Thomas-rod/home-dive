@@ -5,7 +5,7 @@
 
 /* BANNER TOP LAYOUT */
 .bannerLinear {
-    background: linear-gradient(92.76deg, #A7E8BD 19.4%, #FFD972 80.05%);
+    background: linear-gradient(92.76deg, #8E2DE2 19.4%, #4A00E0 80.05%);
     color:white; 
     text-align:center;
     padding: 1rem 0rem;
@@ -28,8 +28,11 @@
 .internalNavigation a {
     display:block;
     width:fit-content;
-    /* margin: 0px 2rem; */
 }
+.internalNavigation a:nth-child(1n) {
+    margin: 0rem 4rem 0rem 0rem;
+}
+
 .internalNavigation a:not(:first-child),
 .appNavigation {
     margin:0rem 2rem 1rem 2rem;

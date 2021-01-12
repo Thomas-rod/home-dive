@@ -5,7 +5,7 @@ import Image from 'next/image'
 import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 
-export const siteTitle = "Dive Analytics"
+export const siteTitle = "Dive - Simple & powerful analytics tool"
 
 export default function Layout({ children}) {
   return (
@@ -40,7 +40,7 @@ export default function Layout({ children}) {
           />
         </Head>
         <header>
-          <div className={styles.bannerLinear}><p className={utilStyles.sizeSubtitleText}>We’re currently running a closed beta and looking for early testers!</p></div>
+          <div className={styles.bannerLinear}><p className={utilStyles.sizeSubtitleText}>We’re currently running a closed beta and looking for early testers! 🔥 🔥 🔥</p></div>
           <nav className={utilStyles.paddingSide}>
             <div className={styles.listNavigation}>
               <div className={styles.internalNavigation}>
@@ -52,7 +52,7 @@ export default function Layout({ children}) {
                 <Link href="/team">
                   <a className={utilStyles.headingSubTitle}>Team</a>
                 </Link>              
-                <Link href="/manifesto">
+                <Link href="/manifesto">                
                   <a className={utilStyles.headingSubTitle}>Manifesto</a>
                 </Link>
               </div>

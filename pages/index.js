@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 
-import Layout, { siteTitle } from '../components/layout'
+import Layout from '../components/layout'
 import Form from '../components/form'
 import ButtonForm from '../components/layout'
 import ButtonArrow from '../components/layout'
@@ -22,9 +22,6 @@ import cardStyle from '../styles/cards.module.css'
 export default function Home() {
   return (
     <Layout>
-      <Head>
-        <title>{siteTitle}</title>
-      </Head>
       <section >
         <div className={styles.homeBanner}>
           <div className={styles.homeBannerLeft}>
@@ -38,22 +35,22 @@ export default function Home() {
           </div>
           <div className={styles.homeBannerRight}>
             <div className={`${cardStyle.cardMedium} ${cardStyle.card}`}>
-              <Image src="/first_graph.svg" alt="logo-dive" layout="fill" />
+              <Image unoptimized='true' src="/first_graph.svg" alt="logo-dive" layout="fill" />
             </div>
             <div className={`${cardStyle.cardBig} ${cardStyle.card}`}>
-              <Image src="/second_graph.svg" alt="logo-dive" layout="fill" />
+              <Image unoptimized='true' src="/second_graph.svg" alt="logo-dive" layout="fill" />
             </div>
             <div className={`${cardStyle.cardSmall} ${cardStyle.card}`}>
-              <Image src="/third_graph.svg" alt="logo-dive" layout="fill" />
+              <Image unoptimized='true' src="/third_graph.svg" alt="logo-dive" layout="fill" />
             </div>
           </div>
         </div>
         <div className={styles.homeClients}>
           <h2 className={`${utilStyle.textAlign} ${utilStyle.size24Text}`}>Powering fast-growing D2C brands</h2>
           <ul className={styles.homeClientsList}>
-            <li><Image src="/logo-color-lovebox.svg" alt="logo-dive" width="200" height="200" /></li>
-            <li><Image src="/shanty-logo.svg" alt="logo-dive" width="200" height="200" /></li>
-            <li><Image src="/logo-rpur.svg" alt="logo-dive" width="200" height="200" /></li>
+            <li><Image unoptimized='true' src="/logo-color-lovebox.svg" alt="logo-dive" width="200" height="200" /></li>
+            <li><Image unoptimized='true' src="/shanty-logo.svg" alt="logo-dive" width="200" height="200" /></li>
+            <li><Image unoptimized='true' src="/logo-rpur.svg" alt="logo-dive" width="200" height="200" /></li>
           </ul>
         </div>
         <div className={styles.blockFeatures}>
@@ -82,13 +79,13 @@ export default function Home() {
             </span>
           </div>
           <div className={styles.blockFeatureRight}>
-            <Image src="/first_block.svg" alt="logo-dive" height="600" width="600" quality="100" />
+            <Image unoptimized='true' src="/first_block.svg" alt="logo-dive" height="600" width="600" quality="100" />
           </div>
         </div>
         <div className={styles.blockFeatures}>
           <div className={styles.blockFeatureLeft}>
             <h2 className={`${utilStyle.headingTitle} ${utilStyle.bold}`}>Monitor your performance marketing in real time</h2>
-            <p className={`${utilStyle.sizeSubtitleText} ${utilStyle.textLightColor} ${utilStyle.bold}`}>Being data driven is the key of sucess in e-commerce</p>
+            <p className={`${utilStyle.sizeSubtitleText} ${utilStyle.textLightColor} ${utilStyle.bold}`}>Being data driven is the key of success in e-commerce</p>
             <ul className={styles.blockFeaturesList}>
               <li className={styles.blockFeaturesItems}>
                 <FontAwesomeIcon className={`${iconStyle.iconMini} ${utilStyle.textCoral}`} icon={ faCheckCircle }/>
@@ -111,7 +108,7 @@ export default function Home() {
             </span>
           </div>
           <div className={styles.blockFeatureRight}>
-            <Image src="/second_block.svg" alt="logo-dive" height="600" width="600" quality="100" />
+            <Image unoptimized='true' src="/second_block.svg" alt="logo-dive" height="600" width="600" quality="100" />
           </div>
         </div>
         <div className={styles.blockFeatures}>
@@ -140,12 +137,12 @@ export default function Home() {
             </span>
           </div>
           <div className={styles.blockFeatureRight}>
-            <Image src="/third_block.svg" alt="logo-dive" height="600" width="600" quality="100" />
+            <Image unoptimized='true' src="/third_block.svg" alt="logo-dive" height="600" width="600" quality="100" />
           </div>
         </div>
         <div className={styles.homeSupportedBy}>
           <p className={`${utilStyle.textAlign} ${utilStyle.size24Text}`}> Supported by</p>
-          <Image src="/thefamilylogo.png" alt="logo-the-family" width="150" height="150" quality="100" />
+          <Image unoptimized='true' src="/thefamilylogo.png" alt="logo-the-family" width="150" height="150" quality="100" />
         </div>
         <div className={styles.homeEarlyAccess}>
           <h2 className={`${utilStyle.headingTitle} ${utilStyle.textAlign} ${utilStyle.bold}`}>Want to be an early tester?</h2>

@@ -96,6 +96,8 @@
   }
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
-  @media only screen and (min-width: 1100px) {
-  
+  @media only screen and (min-width: 1400px) {
+    .paddingSide {
+        padding: 0 10rem;
+    }
   }
