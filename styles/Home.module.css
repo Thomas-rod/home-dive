@@ -84,17 +84,13 @@
 
 .homeEarlyAccess {
     margin: 12rem auto;
-    width:65%;
-    text-align:center;
+    width:fit-content;
 }
 
 .homeEarlyAccess input {
     margin-right:1rem;
 }
 
-.homeEarlyAccess .afterForm {
-    justify-content:center;
-}
 
 
 @media only screen and (max-width: 400px) {
@@ -121,6 +117,14 @@
         justify-content:center;
     }
 
+    .homeClientsList {
+        flex-direction:column;
+    }
+
+    .homeClientsList li {
+        width:50%;
+        margin: 0 auto;
+    }
     .blockFeatures,
     .blockFeatures:nth-child(even) {
         flex-direction:column;
@@ -161,6 +165,15 @@
     }
     .afterForm {
         justify-content:center;
+    }
+
+    .homeClientsList {
+        flex-direction:column;
+    }
+
+    .homeClientsList li {
+        width:50%;
+        margin: 0 auto;
     }
 
     .blockFeatures,

@@ -12,13 +12,35 @@ export default function Layout({ children}) {
       <div className={styles.container}>
         <Head>
           <link rel="icon" href="/favicon.ico"/>
-          <meta
-            name="Description"
-            content="Learn how to builde a website"
+          {/* Open Graph */}
+          <meta property="og:url" content="http://www.diveanalytics.co" key="ogurl" />
+          <meta property="og:site_name" content={siteTitle} key="ogsitename" />
+          <meta property="og:title" content={siteTitle} key="ogtitle" />
+          <meta property="og:description" content="Simple & powerful analytics to unleash your brand growth" key="ogdesc" />
+          <meta property="og:image" content="public/og-image"/>
+
+
+
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta charSet="utf-8" />
+
+
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-KR6FGBNXQH"/>
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-KR6FGBNXQH', {
+              page_path: window.location.pathname,
+            });
+          `,
+            }}
           />
         </Head>
         <header>
-          <div className={styles.bannerLinear}><p className={utilStyles.sizeSubtitleText}>We are lauching a beta sooo blablablabla</p></div>
+          <div className={styles.bannerLinear}><p className={utilStyles.sizeSubtitleText}>We’re currently running a closed beta and looking for early testers!</p></div>
           <nav className={utilStyles.paddingSide}>
             <div className={styles.listNavigation}>
               <div className={styles.internalNavigation}>

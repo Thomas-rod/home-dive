@@ -1,11 +1,13 @@
 import Layout, { siteTitle } from '../components/layout'
+import styles from '../styles/Team.module.css'
+import utilStyle from '../styles/utils.module.css'
 
 export default function Manifesto() {
     return (
         <Layout>
-            <div>
-                <h1>Our team</h1>
-                <h2> We'll be in touche. We're only onboarding a feew users per week to ensure we provide the experience</h2>
+            <div className={styles.containerTeam}>
+                <h1 className={`${utilStyle.headingTitle} ${utilStyle.bold}`}>Why do we create Dive ?</h1>
+                <p className={utilStyle.headingSubTitle}>It's coming soon :D </p>
             </div>
         </Layout>
     )

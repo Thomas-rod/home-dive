@@ -59,7 +59,7 @@ export default function Home() {
         <div className={styles.blockFeatures}>
           <div className={styles.blockFeatureLeft}>
             <h2 className={`${utilStyle.headingTitle} ${utilStyle.bold}`}>All your marketing data in one place</h2>
-            <p className={`${utilStyle.sizeSubtitleText} ${utilStyle.textLightColor} ${utilStyle.bold}`}>You are not paid to copy past data in a google sheet</p>
+            <p className={`${utilStyle.sizeSubtitleText} ${utilStyle.textLightColor} ${utilStyle.bold}`}>The single source of truth for your data</p>
             <ul className={styles.blockFeaturesList}>
               <li className={styles.blockFeaturesItems}>
                 <FontAwesomeIcon className={`${iconStyle.iconMini} ${utilStyle.textCoral}`} icon={ faCheckCircle }/>
@@ -148,7 +148,7 @@ export default function Home() {
           <Image src="/thefamilylogo.png" alt="logo-the-family" width="150" height="150" quality="100" />
         </div>
         <div className={styles.homeEarlyAccess}>
-          <h2 className={`${utilStyle.headingTitle} ${utilStyle.bold}`}>Want to be an early tester?</h2>
+          <h2 className={`${utilStyle.headingTitle} ${utilStyle.textAlign} ${utilStyle.bold}`}>Want to be an early tester?</h2>
           <Form/>
           <div className={styles.afterForm}>
             <FontAwesomeIcon className={`${iconStyle.iconMini} ${utilStyle.textCoral}`} icon={ faCheckCircle }/>
