@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 import Layout, { siteTitle } from '../components/layout'
+import Form from '../components/form'
 import ButtonForm from '../components/layout'
 import ButtonArrow from '../components/layout'
 
@@ -29,10 +30,7 @@ export default function Home() {
           <div className={styles.homeBannerLeft}>
             <h1 className={`${utilStyle.headingTitle} ${utilStyle.bold}`}>Simple & powerful analytics to unleash your brand growth</h1>
             <h2 className={utilStyle.headingSubTitle}>Dive is the analytics platform for Shopify merchants. Track & analyze your marketing data and run your store 🔥</h2>
-            <form>
-              <input type="email" name="email" placeholder="Your email..." label="false" className={`${formStyle.boxShadowInput} ${formStyle.customInput} ${utilStyle.sizeBodyText}`}></input>
-              <a href="#" className={`${buttonStyle.button} ${buttonStyle.buttonForm} ${buttonStyle.buttonBlack}`}>Request early access</a>
-            </form>
+            <Form/>
             <div className={styles.afterForm}>
               <FontAwesomeIcon className={`${iconStyle.iconMini} ${utilStyle.textCoral}`} icon={ faCheckCircle }/>
               <p className={utilStyle.textMediumColor}>No code. No engineer time</p>
@@ -79,7 +77,7 @@ export default function Home() {
             <span className={buttonStyle.buttonArrow}>
               <FontAwesomeIcon className={`${iconStyle.iconMini} ${utilStyle.textBlack}`} icon={ faArrowRight}/>
               <a href="#" className={`${buttonStyle.buttonSimple} ${utilStyle.bold}`}>
-                Get started for free
+                Request early access
               </a>
             </span>
           </div>
@@ -108,7 +106,7 @@ export default function Home() {
             <span className={buttonStyle.buttonArrow}>
               <FontAwesomeIcon className={`${iconStyle.iconMini} ${utilStyle.textBlack}`} icon={ faArrowRight}/>
               <a href="#" className={`${buttonStyle.buttonSimple} ${utilStyle.bold}`}>
-                Get started for free
+                Request early access
               </a>
             </span>
           </div>
@@ -137,7 +135,7 @@ export default function Home() {
             <span className={buttonStyle.buttonArrow}>
               <FontAwesomeIcon className={`${iconStyle.iconMini} ${utilStyle.textBlack}`} icon={ faArrowRight}/>
               <a href="#" className={`${buttonStyle.buttonSimple} ${utilStyle.bold}`}>
-                Get started for free
+                Request early access
               </a>
             </span>
           </div>
@@ -151,14 +149,11 @@ export default function Home() {
         </div>
         <div className={styles.homeEarlyAccess}>
           <h2 className={`${utilStyle.headingTitle} ${utilStyle.bold}`}>Want to be an early tester?</h2>
-          <form>
-              <input type="email" name="email" placeholder="Your email..." label="false" className={`${formStyle.boxShadowInput} ${formStyle.customInput} ${utilStyle.sizeBodyText}`}></input>
-              <a href="#" className={`${buttonStyle.button} ${buttonStyle.buttonForm} ${buttonStyle.buttonBlack}`}>Request early access</a>
-            </form>
-            <div className={styles.afterForm}>
-              <FontAwesomeIcon className={`${iconStyle.iconMini} ${utilStyle.textCoral}`} icon={ faCheckCircle }/>
-              <p className={utilStyle.textMediumColor}>No code. No engineer time</p>
-            </div>
+          <Form/>
+          <div className={styles.afterForm}>
+            <FontAwesomeIcon className={`${iconStyle.iconMini} ${utilStyle.textCoral}`} icon={ faCheckCircle }/>
+            <p className={utilStyle.textMediumColor}>No code. No engineer time</p>
+          </div>
         </div>
       </section>
     </Layout>

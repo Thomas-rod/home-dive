@@ -5,10 +5,16 @@
     font-size:16px;
     border-radius:5px;
     box-shadow: 0px 9px 20px rgba(0, 0, 0, 0.15);
+    border:unset;
+    cursor:pointer;
+}
+.button:hover {
+    cursor:pointer;
 }
 .buttonForm {
     padding: 1rem;
 }
+
 
 .buttonBlack {
     background-color: #0C0C0D;
@@ -27,4 +33,41 @@
 }
 .buttonArrow a {
     margin-left: 1rem;
+}
+
+@media only screen and (max-width: 400px) {
+    .customInput {
+        width:100%;
+        margin: 0rem 0rem 1rem 0rem;
+    }
+    .buttonFormHome {
+        width:100%;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) and (min-width: 400px){
+    .customInput {
+        width:100%;
+        margin: 0rem 0rem 1rem 0rem;
+    }
+    .buttonFormHome {
+        width:100%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) and (min-width: 780px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and  (max-width: 1100px) and (min-width: 992px){
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1100px) {
+
 }

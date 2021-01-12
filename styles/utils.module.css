@@ -67,3 +67,35 @@
 .paddingSide {
     padding: 0 5rem;
 }
+
+
+@media only screen and (max-width: 400px) {
+    
+    
+    .paddingSide {
+        padding:0 2rem;
+    }
+  }
+  
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (max-width: 768px) and (min-width: 400px){
+    .paddingSide {
+        padding:0 3rem;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (max-width: 992px) and (min-width: 780px) {
+  
+  }
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and  (max-width: 1100px) and (min-width: 992px){
+  
+  }
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1100px) {
+  
+  }

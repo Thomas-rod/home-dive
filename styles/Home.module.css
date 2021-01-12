@@ -95,3 +95,101 @@
 .homeEarlyAccess .afterForm {
     justify-content:center;
 }
+
+
+@media only screen and (max-width: 400px) {
+    .homeBanner {
+        flex-direction:column;
+        text-align:center;
+    }
+    .homeBannerLeft,
+    .homeBannerRight {
+        width:100%;
+    }
+    .homeBannerRight {
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;
+        width:120%;
+    }
+
+    .homeBannerLeft h1 {
+        margin-top: 3rem;
+    }
+    .afterForm {
+        justify-content:center;
+    }
+
+    .blockFeatures,
+    .blockFeatures:nth-child(even) {
+        flex-direction:column;
+        text-align:center;
+    }
+    .blockFeatureLeft,
+    .blockFeatureRight {
+        width:100%;
+    }
+
+    .homeEarlyAccess {
+        width:100%;
+        margin: 6rem auto;
+    }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) and (min-width: 400px){
+    .homeBanner {
+        flex-direction:column;
+        text-align:center;
+    }
+    .homeBannerLeft,
+    .homeBannerRight {
+        width:100%;
+    }
+    .homeBannerRight {
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-items:center;
+        width:120%;
+    }
+
+    .homeBannerLeft h1 {
+        margin-top: 3rem;
+    }
+    .afterForm {
+        justify-content:center;
+    }
+
+    .blockFeatures,
+    .blockFeatures:nth-child(even) {
+        flex-direction:column;
+        text-align:center;
+    }
+    .blockFeatureLeft,
+    .blockFeatureRight {
+        width:100%;
+    }
+
+    .homeEarlyAccess {
+        width:100%;
+        margin: 6rem auto;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 992px) and (min-width: 780px) {
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and  (max-width: 1100px) and (min-width: 992px){
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1100px) {
+
+}

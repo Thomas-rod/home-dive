@@ -16,7 +16,7 @@ export default function Team() {
         <Layout>
             <div className={styles.containerTeam}>
                 <h1 className={`${utilStyle.headingTitle} ${utilStyle.bold}`}>Our team</h1>
-                <p className={utilStyle.headingSubTitle}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat!</p>
+                <p className={utilStyle.headingSubTitle}>We come from the software and e-commerce industries, and are on a mission to help fast-growing brands grow profitably by leveraging data and providing actionable insights. Interested to know more about Dive ? Want to have early access to our plateform? </p>
                 <ul className={styles.containerTeamPictures}>
                     <li className={styles.itemTeamPicture}>
                         <Image src="/pic_thomas.png" alt="logo-dive" width="200" height="200"/>

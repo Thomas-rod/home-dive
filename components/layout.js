@@ -23,7 +23,7 @@ export default function Layout({ children}) {
             <div className={styles.listNavigation}>
               <div className={styles.internalNavigation}>
                 <Link href="/">
-                  <a>
+                  <a className={styles.logo}>
                     <Image src="/logo-dive.svg" alt="logo-dive" width="195" height="73" />
                   </a>
                 </Link>
