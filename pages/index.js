@@ -22,6 +22,9 @@ import cardStyle from '../styles/cards.module.css'
 export default function Home() {
   return (
     <Layout>
+      <Head>
+        <title>{siteTitle}</title>
+      </Head>
       <section >
         <div className={styles.homeBanner}>
           <div className={styles.homeBannerLeft}>

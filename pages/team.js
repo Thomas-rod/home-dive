@@ -14,6 +14,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Team() {
     return (
         <Layout>
+            <Head>
+                <title>{siteTitle}</title>
+            </Head>
             <div className={styles.containerTeam}>
                 <h1 className={`${utilStyle.headingTitle} ${utilStyle.bold}`}>Our team</h1>
                 <p className={utilStyle.headingSubTitle}>We come from the software and e-commerce industries, and are on a mission to help fast-growing brands grow profitably by leveraging data and providing actionable insights. Interested to know more about Dive ? Want to have early access to our plateform? </p>

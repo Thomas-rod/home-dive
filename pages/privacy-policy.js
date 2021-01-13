@@ -5,6 +5,9 @@ import utilStyle from '../styles/utils.module.css'
 export default function PrivacyPolicy() {
     return (
         <Layout>
+            <Head>
+                <title>{siteTitle}</title>
+            </Head>
             <div className={styles.containerTeam}>
                 <h1 className={`${utilStyle.headingTitle} ${utilStyle.bold}`}>Privacy Policy</h1>
                 <p className={utilStyle.headingSubTitle}></p>
