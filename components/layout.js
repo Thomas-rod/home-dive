@@ -39,7 +39,7 @@ export default function Layout({ children, siteTitle}) {
           />
         </Head>
         <header>
-          <div className={styles.bannerLinear}><p className={utilStyles.sizeSubtitleText}>We’re currently running a closed beta and looking for early testers! 🔥 🔥 🔥</p></div>
+          <div className={styles.bannerLinear}><p className={utilStyles.sizeSubtitleText}>We’re currently running a privatee beta and looking for early testers! 🔥 🔥 🔥</p></div>
           <nav className={utilStyles.paddingSide}>
             <div className={styles.listNavigation}>
               <div className={styles.internalNavigation}>

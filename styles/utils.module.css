@@ -56,6 +56,10 @@
     color: #1B31FF;
 }
 
+.textUnderline {
+    text-decoration: underline;
+}
+
 
 
 /* OTHER CLASS GENERIC */

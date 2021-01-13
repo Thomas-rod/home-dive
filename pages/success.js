@@ -12,8 +12,8 @@ export default function Success() {
             </Head>
             <div className={styles.containerTeam}>
                 <h1 className={`${utilStyle.headingTitle} ${utilStyle.bold}`}>Thanks for signing up</h1>
-                <p className={utilStyle.headingSubTitle}>We'll be in touche. We're only onboarding a feew users per week to ensure we provide the experience</p>
-                <p>Keep an eye on your inbox, so you don't miss out!</p>
+                <p className={utilStyle.headingSubTitle}>We’ll be in touch shortly. We are currently running a private beta and only onboarding a few users per week to ensure we provide the best experience</p>
+                <p>Keep an eye and your inbox! 💌</p>
             </div>
         </Layout>
     )

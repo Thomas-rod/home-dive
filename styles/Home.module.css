@@ -4,7 +4,9 @@
     align-items:center;
 }
 
-
+.homeBannerLeft {
+    max-width:50%;
+}
 .homeBannerLeft,
 .homeBannerRight {
     min-width:45%;
@@ -53,6 +55,10 @@
 .blockFeatures:nth-child(even) {
     flex-direction:row-reverse;
 }
+.blockFeatures:nth-child(even) .blockFeatureRight {
+    margin-right:auto;
+    margin-left:0;
+}
         .blockFeaturesList {
             margin:2rem 0rem;
         }
@@ -65,13 +71,14 @@
                     margin-left: 1rem;
                 }
 
-.blockFeatureLeft {
+.blockFeatureLeft, 
+.blockFeatureRight {
     width:45%;
 }
 
 .blockFeatureRight {
     position:relative;
-    margin: 0 auto;
+    margin-left:auto;
 }
 
 .homeSupportedBy {
