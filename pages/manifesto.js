@@ -10,7 +10,7 @@ export default function Manifesto() {
                 <title>{siteTitle}</title>
             </Head>
             <div className={styles.containerTeam}>
-                <h1 className={`${utilStyle.headingTitle} ${utilStyle.bold}`}>Why do we create Dive ?</h1>
+                <h1 className={`${utilStyle.headingTitle} ${utilStyle.bold}`}>Our Manifesto</h1>
                 <p className={utilStyle.headingSubTitle}>Coming soon ⏳</p>
             </div>
         </Layout>
