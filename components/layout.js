@@ -7,7 +7,7 @@ import utilStyles from '../styles/utils.module.css'
 
 export const siteTitle = "Dive - Simple & powerful analytics tool"
 
-export default function Layout({ children}) {
+export default function Layout({ children, siteTitle}) {
   return (
       <div className={styles.container}>
         <Head>
@@ -16,7 +16,7 @@ export default function Layout({ children}) {
           <meta property="og:url" content="http://www.diveanalytics.co" key="ogurl" />
           <meta property="og:title" content={siteTitle} key="ogtitle" />
           <meta property="og:description" content="Simple & powerful analytics to unleash your brand growth" key="ogdesc" />
-          <meta property="og:image" content="public/og-image"/>
+          <meta property="og:image" content="https://homeimagedive.s3.eu-west-3.amazonaws.com/og-image.png"/>
 
 
 
