@@ -14,7 +14,6 @@ export default function Layout({ children}) {
           <link rel="icon" href="/favicon.ico"/>
           {/* Open Graph */}
           <meta property="og:url" content="http://www.diveanalytics.co" key="ogurl" />
-          <meta property="og:site_name" content={siteTitle} key="ogsitename" />
           <meta property="og:title" content={siteTitle} key="ogtitle" />
           <meta property="og:description" content="Simple & powerful analytics to unleash your brand growth" key="ogdesc" />
           <meta property="og:image" content="public/og-image"/>
