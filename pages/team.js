@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Layout, { siteTitle } from '../components/layout'
 import Image from 'next/image'
 
