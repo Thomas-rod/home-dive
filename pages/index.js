@@ -49,7 +49,7 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.homeClients}>
-          <h2 className={`${utilStyle.textAlign} ${utilStyle.size24Text}`}>Powering fast-growing D2C brands</h2>
+          <h2 className={`${utilStyle.textAlign} ${utilStyle.size24Text}`}>Trusted by fast-growing D2C brands</h2>
           <ul className={styles.homeClientsList}>
             <li><Image src="/logo-color-lovebox.svg" alt="logo-dive" width="200" height="200" /></li>
             <li><Image src="/shanty-logo.svg" alt="logo-dive" width="200" height="200" /></li>
