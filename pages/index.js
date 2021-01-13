@@ -29,7 +29,7 @@ export default function Home() {
         <div className={styles.homeBanner}>
           <div className={styles.homeBannerLeft}>
             <h1 className={`${utilStyle.headingTitle} ${utilStyle.bold}`}>Simple & powerful analytics to grow your brand</h1>
-            <h2 className={utilStyle.headingSubTitle}>Dive is the analytics platform for Shopify. Track & analyze your marketing data and get actionable insights</h2>
+            <h2 className={utilStyle.headingSubTitle}>Dive is the analytics platform for Shopify. Track & analyze your marketing data and get actionable insights.</h2>
             <Form/>
             <div className={styles.afterForm}>
               <FontAwesomeIcon className={`${iconStyle.iconMini} ${utilStyle.textCoral}`} icon={ faCheckCircle }/>
