@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import Layout from '../components/layout'
 import styles from '../styles/Team.module.css'
 import utilStyle from '../styles/utils.module.css'
