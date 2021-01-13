@@ -18,47 +18,47 @@
 
 .sizeBodyText {
     font-size:16px;
-}
+}    
 
 /* TEXT CLASS GENERIC -- POSITIONING AND OTHER */
 
 .bold {
     font-weight: bold;
-}
+}    
 
 .textAlign {
     text-align:center;
+}    
+
+.textUnderline {
+    text-decoration: underline;
 }
 
 
 /* TEXT CLASS GENERIC -- COLOR */
 .textWhite {
     color:white;
-}
+}    
 
 .textMainColor {
     color: #0C0C0D;
-}
+}    
 
 .textMediumColor {
     color:#2F2F30;
-}
+}    
 
 .textLightColor {
     color: #8C8E92;
-}
+}    
 
 .textCoral {
     color:#FF8080;
-}
+}    
 
 .textBlue {
     color: #1B31FF;
-}
-
-.textUnderline {
-    text-decoration: underline;
-}
+}    
 
 
 

@@ -1,0 +1,28 @@
+.container {
+    width:100%;
+    margin:0 auto 5rem auto;
+    text-align:left;
+}
+
+.header {
+    font-size:2rem;
+    color: #7A18F6;
+    font-weight:bold;
+    margin: 3rem 0rem;
+}
+
+.subHeader {
+    font-weight:bold;
+}
+
+.paragraphe {
+    font-size:1.05rem;
+    margin: 2rem 0rem;
+}
+
+.container ul {
+    list-style:inside;
+}
+.container ul li {
+    padding: .5rem 2rem;
+}

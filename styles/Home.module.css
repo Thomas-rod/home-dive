@@ -7,6 +7,7 @@
 .homeBannerLeft {
     max-width:50%;
 }
+
 .homeBannerLeft,
 .homeBannerRight {
     min-width:45%;
@@ -119,6 +120,11 @@
     .homeBannerRight {
         width:100%;
     }
+
+    .homeBannerLeft {
+        max-width:100%;
+    }
+
     .homeBannerRight {
         display:flex;
         justify-content:center;
