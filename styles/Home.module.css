@@ -91,6 +91,16 @@
     margin-right:1rem;
 }
 
+.imageBlocks {
+    display:block;
+    height:110%;
+    margin: 0 auto;
+}
+
+.logoClients {
+    width:200px;
+    height:200px;
+}
 
 
 @media only screen and (max-width: 400px) {

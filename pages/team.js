@@ -20,7 +20,7 @@ export default function Team() {
                 <p className={utilStyle.headingSubTitle}>Interested in knowing more about Dive ? Want to be part of the current beta? Request early access or email us at hello@diveanalytics.co</p>
                 <ul className={styles.containerTeamPictures}>
                     <li className={styles.itemTeamPicture}>
-                        <Image unoptimized='true' src="/pic_thomas.png" alt="logo-dive" width="200" height="200"/>
+                        <Image src="/pic_thomas.png" alt="logo-dive" width="200" height="200"/>
                         <p>Thomas Rodier</p>
                         <p className={utilStyle.textBlue}>Tech, Growth</p>
                         <ul className={styles.iconsContact}>
@@ -37,7 +37,7 @@ export default function Team() {
                         </ul>
                     </li>
                     <li className={styles.itemTeamPicture}>
-                        <Image unoptimized='true' src="/pic_remi.png" alt="logo-dive" width="200" height="200"/>
+                        <Image src="/pic_remi.png" alt="logo-dive" width="200" height="200"/>
                         <p>Rémi Beaufils</p>
                         <p className={utilStyle.textBlue}>Tech</p>
                         <ul className={styles.iconsContact}>
@@ -54,7 +54,7 @@ export default function Team() {
                         </ul>
                     </li>
                     <li className={styles.itemTeamPicture}>
-                        <Image unoptimized='true' src="/pic_alexis.png" alt="logo-dive" width="200" height="200"/>
+                        <Image src="/pic_alexis.png" alt="logo-dive" width="200" height="200"/>
                         <p>Alexis Guinebretière</p>
                         <p className={utilStyle.textBlue}>Product, Sales</p>
                         <ul className={styles.iconsContact}>

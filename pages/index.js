@@ -25,8 +25,8 @@ export default function Home() {
       <section >
         <div className={styles.homeBanner}>
           <div className={styles.homeBannerLeft}>
-            <h1 className={`${utilStyle.headingTitle} ${utilStyle.bold}`}>Simple & powerful analytics to unleash your brand growth</h1>
-            <h2 className={utilStyle.headingSubTitle}>Dive is the analytics platform for Shopify merchants. Track & analyze your marketing data and run your store 🔥</h2>
+            <h1 className={`${utilStyle.headingTitle} ${utilStyle.bold}`}>Simple & powerful analytics to grow your brand</h1>
+            <h2 className={utilStyle.headingSubTitle}>Dive is the analytics platform for Shopify. Track & analyze your marketing data and get actionable insights 🔥</h2>
             <Form/>
             <div className={styles.afterForm}>
               <FontAwesomeIcon className={`${iconStyle.iconMini} ${utilStyle.textCoral}`} icon={ faCheckCircle }/>
@@ -35,22 +35,22 @@ export default function Home() {
           </div>
           <div className={styles.homeBannerRight}>
             <div className={`${cardStyle.cardMedium} ${cardStyle.card}`}>
-              <Image unoptimized='true' src="/first_graph.svg" alt="logo-dive" layout="fill" />
+              <Image src="/first_graph.svg" alt="logo-dive" layout="fill" />
             </div>
             <div className={`${cardStyle.cardBig} ${cardStyle.card}`}>
-              <Image unoptimized='true' src="/second_graph.svg" alt="logo-dive" layout="fill" />
+              <Image src="/second_graph.svg" alt="logo-dive" layout="fill" />
             </div>
             <div className={`${cardStyle.cardSmall} ${cardStyle.card}`}>
-              <Image unoptimized='true' src="/third_graph.svg" alt="logo-dive" layout="fill" />
+              <Image src="/third_graph.svg" alt="logo-dive" layout="fill" />
             </div>
           </div>
         </div>
         <div className={styles.homeClients}>
           <h2 className={`${utilStyle.textAlign} ${utilStyle.size24Text}`}>Powering fast-growing D2C brands</h2>
           <ul className={styles.homeClientsList}>
-            <li><Image unoptimized='true' src="/logo-color-lovebox.svg" alt="logo-dive" width="200" height="200" /></li>
-            <li><Image unoptimized='true' src="/shanty-logo.svg" alt="logo-dive" width="200" height="200" /></li>
-            <li><Image unoptimized='true' src="/logo-rpur.svg" alt="logo-dive" width="200" height="200" /></li>
+            <li><Image src="/logo-color-lovebox.svg" alt="logo-dive" width="200" height="200" /></li>
+            <li><Image src="/shanty-logo.svg" alt="logo-dive" width="200" height="200" /></li>
+            <li><Image src="/logo-rpur.svg" alt="logo-dive" width="200" height="200" /></li>
           </ul>
         </div>
         <div className={styles.blockFeatures}>
@@ -79,7 +79,7 @@ export default function Home() {
             </span>
           </div>
           <div className={styles.blockFeatureRight}>
-            <Image unoptimized='true' src="/first_block.svg" alt="logo-dive" height="600" width="600" quality="100" />
+            <Image src="/first_block.svg" alt="logo-dive" height="600" width="600" quality="100" />
           </div>
         </div>
         <div className={styles.blockFeatures}>
@@ -97,7 +97,7 @@ export default function Home() {
               </li>
               <li className={styles.blockFeaturesItems}>
                 <FontAwesomeIcon className={`${iconStyle.iconMini} ${utilStyle.textCoral}`} icon={ faCheckCircle }/>
-                <p>All your <span className={utilStyle.bold}>Shopify stores centralized</span> in a single interface</p>
+                <p>Identify your <span className={utilStyle.bold}>top performing</span> and underperforming channels</p>
               </li>
             </ul>
             <span className={buttonStyle.buttonArrow}>
@@ -108,13 +108,13 @@ export default function Home() {
             </span>
           </div>
           <div className={styles.blockFeatureRight}>
-            <Image unoptimized='true' src="/second_block.svg" alt="logo-dive" height="600" width="600" quality="100" />
+            <Image src="/second_block.svg" alt="logo-dive" height="600" width="600" quality="100" />
           </div>
         </div>
         <div className={styles.blockFeatures}>
           <div className={styles.blockFeatureLeft}>
             <h2 className={`${utilStyle.headingTitle} ${utilStyle.bold}`}>Get in the driver seat of your growth</h2>
-            <p className={`${utilStyle.sizeSubtitleText} ${utilStyle.textLightColor} ${utilStyle.bold}`}>You are not paid to copy past data in a google sheet</p>
+            <p className={`${utilStyle.sizeSubtitleText} ${utilStyle.textLightColor} ${utilStyle.bold}`}>Say goodbye to manual sheets to run your store(s)</p>
             <ul className={styles.blockFeaturesList}>
               <li className={styles.blockFeaturesItems}>
                 <FontAwesomeIcon className={`${iconStyle.iconMini} ${utilStyle.textCoral}`} icon={ faCheckCircle }/>
@@ -122,7 +122,7 @@ export default function Home() {
               </li>
               <li className={styles.blockFeaturesItems}>
                 <FontAwesomeIcon className={`${iconStyle.iconMini} ${utilStyle.textCoral}`} icon={ faCheckCircle }/>
-                <p>Identify your <span className={utilStyle.bold}>top performing</span> and underperforming channels</p>
+                <p>All your <span className={utilStyle.bold}>Shopify stores centralized</span> in a single interface</p>
               </li>
               <li className={styles.blockFeaturesItems}>
                 <FontAwesomeIcon className={`${iconStyle.iconMini} ${utilStyle.textCoral}`} icon={ faCheckCircle }/>
@@ -137,12 +137,12 @@ export default function Home() {
             </span>
           </div>
           <div className={styles.blockFeatureRight}>
-            <Image unoptimized='true' src="/third_block.svg" alt="logo-dive" height="600" width="600" quality="100" />
+            <Image  src="/third_block.svg" alt="logo-dive" height="600" width="600" quality="100" />
           </div>
         </div>
         <div className={styles.homeSupportedBy}>
           <p className={`${utilStyle.textAlign} ${utilStyle.size24Text}`}> Supported by</p>
-          <Image unoptimized='true' src="/thefamilylogo.png" alt="logo-the-family" width="150" height="150" quality="100" />
+          <Image src="/thefamilylogo.png" alt="logo-the-family" width="150" height="150" quality="100" />
         </div>
         <div className={styles.homeEarlyAccess}>
           <h2 className={`${utilStyle.headingTitle} ${utilStyle.textAlign} ${utilStyle.bold}`}>Want to be an early tester?</h2>
