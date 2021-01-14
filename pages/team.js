@@ -25,7 +25,7 @@ export default function Team() {
                 <ul className={styles.containerTeamPictures}>
                     <li className={styles.itemTeamPicture}>
                         <Image src="/pic_thomas.png" alt="logo-dive" width="200" height="200"/>
-                        <p>Thomas Rodier</p>
+                        <p>Thomas</p>
                         <p className={utilStyle.textBlue}>Tech, Growth</p>
                         <ul className={styles.iconsContact}>
                             <li>
@@ -41,8 +41,8 @@ export default function Team() {
                         </ul>
                     </li>
                     <li className={styles.itemTeamPicture}>
-                        <Image src="/pic_remi.png" alt="logo-dive" width="200" height="200"/>
-                        <p>Rémi Beaufils</p>
+                        <Image src="/avatar-placeholder.png" alt="logo-dive" width="200" height="200"/>
+                        <p>Rémi</p>
                         <p className={utilStyle.textBlue}>Tech</p>
                         <ul className={styles.iconsContact}>
                             <li>
@@ -50,16 +50,16 @@ export default function Team() {
                                     <FontAwesomeIcon className={`${iconStyle.iconMini} ${utilStyle.textBlack}`} icon={ faEnvelope }/>
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="https://www.linkedin.com/in/remi-beaufils/" target="_blank">
                                     <FontAwesomeIcon className={`${iconStyle.iconMini} ${utilStyle.textBlack}`} icon={ faLinkedin }/>
                                 </a>
-                            </li>
+                            </li> */}
                         </ul>
                     </li>
                     <li className={styles.itemTeamPicture}>
                         <Image src="/pic_alexis.png" alt="logo-dive" width="200" height="200"/>
-                        <p>Alexis Guinebretière</p>
+                        <p>Alexis</p>
                         <p className={utilStyle.textBlue}>Product, Sales</p>
                         <ul className={styles.iconsContact}>
                             <li>
