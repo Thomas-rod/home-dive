@@ -58,7 +58,7 @@ export default function Home() {
         </div>
         <div className={styles.blockFeatures}>
           <div className={styles.blockFeatureLeft}>
-            <h2 className={`${utilStyle.headingTitle} ${utilStyle.bold}`}>All your marketing data in one place</h2>
+            <h2 className={`${utilStyle.headingTitle} ${utilStyle.bold}`}>Centralize all your marketing data in one place</h2>
             <p className={`${utilStyle.sizeSubtitleText} ${utilStyle.textLightColor} ${utilStyle.bold}`}>The single source of truth for your data</p>
             <ul className={styles.blockFeaturesList}>
               <li className={styles.blockFeaturesItems}>
@@ -96,7 +96,7 @@ export default function Home() {
               </li>
               <li className={styles.blockFeaturesItems}>
                 <FontAwesomeIcon className={`${iconStyle.iconMini} ${utilStyle.textCoral}`} icon={ faCheckCircle }/>
-                <p><span className={utilStyle.bold}>Monitor your profitability</span> in real time, adjust budgets and take decisions based on data</p>
+                <p><span className={utilStyle.bold}>Monitor your profitability</span> in real time, adjust budgets and make decisions based on data</p>
               </li>
               <li className={styles.blockFeaturesItems}>
                 <FontAwesomeIcon className={`${iconStyle.iconMini} ${utilStyle.textCoral}`} icon={ faCheckCircle }/>
@@ -129,7 +129,7 @@ export default function Home() {
               </li>
               <li className={styles.blockFeaturesItems}>
                 <FontAwesomeIcon className={`${iconStyle.iconMini} ${utilStyle.textCoral}`} icon={ faCheckCircle }/>
-                <p>No more guesswork, take <span className={utilStyle.bold}>ROI-based decisions</span> and grow your brand</p>
+                <p>No more guesswork, make <span className={utilStyle.bold}>ROI-based decisions</span> and grow your brand</p>
               </li>
             </ul>
             <span className={buttonStyle.buttonArrow}>
