@@ -15,10 +15,21 @@
     padding: 1rem;
 }
 
+.buttonFormNewsletter {
+    margin: 1rem auto;
+    display:block;
+    width:fit-content;
+}
+
 
 .buttonBlack {
     background-color: #0C0C0D;
     color:white;
+}
+
+.buttonWhite {
+    background-color: white;
+    color:#0C0C0D;
 }
 
 .buttonSimple {

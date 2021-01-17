@@ -61,6 +61,12 @@
 }    
 
 
+/* CONTAINER CLASSIC CLASS*/
+.flexBetweenCenter {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
 
 /* OTHER CLASS GENERIC */
 .boxShadowCard {

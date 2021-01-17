@@ -151,7 +151,6 @@
     .blockFeatures,
     .blockFeatures:nth-child(even) {
         flex-direction:column;
-        text-align:center;
     }
     .blockFeatureLeft,
     .blockFeatureRight {
@@ -202,7 +201,6 @@
     .blockFeatures,
     .blockFeatures:nth-child(even) {
         flex-direction:column;
-        text-align:center;
     }
     .blockFeatureLeft,
     .blockFeatureRight {
