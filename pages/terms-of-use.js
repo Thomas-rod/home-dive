@@ -13,7 +13,7 @@ export default function TermsOfUse() {
             </Head>
             <div className={teamStyle.containerTeam}>
                 <h1 className={`${utilStyle.headingTitle} ${utilStyle.bold}`}>Terms of Use</h1>
-                <p className={utilStyle.headingSubTitle}>Updated 13 Wednesday of January 2020</p>
+                <p className={utilStyle.headingSubTitle}>Updated January 13, 2021</p>
                 <div className={styles.container}>
                     <h2 className={styles.header}>1. GENERAL</h2>
                     <p className={styles.paragraphe}>1.1 These General Terms and Conditions of Use together with the Order Confirmation and Special Terms (as defined in the Order Confirmation), if any, constitute the entire “Agreement” between the Parties. The “Parties” are the “Company” and the “Customer,” collectively, or a “Party” separately, and are defined as follows: (a) the “Company” or “Dive”, and (b) the “Customer” refers to and describes the customer/subscriber accessing, having the ability to access, or otherwise has the Company’s permission, authorization, or confirmation to access Company’s Dive subscription or otherwise its services, products, and/or content.  “Dive” refers to and describes any Dive product and/or service, as well as any other product and/or service affiliated with or otherwise connected to the Dive product and/or service. The “Order Confirmation” refers to and describes the approval, authorization, or otherwise the confirmation received upon subscribing to or agreeing to be subscribed to Dive.</p>

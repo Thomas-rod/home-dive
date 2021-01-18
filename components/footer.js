@@ -66,9 +66,9 @@ export default function Footer() {
                     </ul>
                     <ul>
                         <li className={`${utilStyle.size24Text} ${utilStyle.textWhite} ${utilStyle.bold}`}>Support</li>
-                        <li className={utilStyle.textWhite}>
+                        {/* <li className={utilStyle.textWhite}>
                             <Link href="/">Live chat</Link>
-                        </li>
+                        </li> */}
                         <li className={utilStyle.textWhite}>
                             <a href="mailto:hello@diveanalytics.co">Contact us</a>
                         </li>
