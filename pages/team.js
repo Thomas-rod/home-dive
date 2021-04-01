@@ -41,23 +41,6 @@ export default function Team() {
                         </ul>
                     </li>
                     <li className={styles.itemTeamPicture}>
-                        <Image src="/avatar-placeholder.png" alt="logo-dive" width="200" height="200"/>
-                        <p>Rémi</p>
-                        <p className={utilStyle.textBlue}>Tech</p>
-                        <ul className={styles.iconsContact}>
-                            <li>
-                                <a href="mailto:remi@diveanalytics.co">
-                                    <FontAwesomeIcon className={`${iconStyle.iconMini} ${utilStyle.textBlack}`} icon={ faEnvelope }/>
-                                </a>
-                            </li>
-                            {/* <li>
-                                <a href="https://www.linkedin.com/in/remi-beaufils/" target="_blank">
-                                    <FontAwesomeIcon className={`${iconStyle.iconMini} ${utilStyle.textBlack}`} icon={ faLinkedin }/>
-                                </a>
-                            </li> */}
-                        </ul>
-                    </li>
-                    <li className={styles.itemTeamPicture}>
                         <Image src="/pic_alexis.png" alt="logo-dive" width="200" height="200"/>
                         <p>Alexis</p>
                         <p className={utilStyle.textBlue}>Product, Sales</p>
