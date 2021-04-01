@@ -26,7 +26,7 @@ export default function Team() {
                     <li className={styles.itemTeamPicture}>
                         <Image src="/pic_thomas.png" alt="logo-dive" width="200" height="200"/>
                         <p>Thomas</p>
-                        <p className={utilStyle.textBlue}>Tech, Growth</p>
+                        <p className={utilStyle.textBlue}>Tech</p>
                         <ul className={styles.iconsContact}>
                             <li>
                                 <a href="mailto:thomas@diveanalytics.co">
