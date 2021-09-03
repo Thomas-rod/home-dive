@@ -1,0 +1,222 @@
+/*  TESTIMONIAL CSS */
+
+.container_testimonials{
+    max-width: 750px;
+    height: 420px;
+    margin: 100px auto 100px;
+    position: relative;
+    /* overflow: hidden; */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.slide_testimonials {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: opacity ease-in-out 0.4s;
+}
+.slide_testimonials img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.active_anim_testimonials {
+    opacity: 1;
+}
+
+
+.container_buttons_testimonials {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    bottom:-20%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.container_buttons_testimonials svg {
+    margin: 0px 15px;
+}
+
+
+
+/* FEATURES CSS */
+
+.container_features {
+    margin: 100px auto 100px;
+}
+
+.container_features_tabs {
+
+}
+
+.features_tabs_items {
+    height:100%;
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+}
+
+.feature_tab_item {
+    cursor:pointer;
+    padding: 0px 50px 15px 50px;
+    border-bottom: 2px solid var(--white_color);
+    
+}
+
+.feature_tab_item a {
+    color: var(--white_color)
+}
+
+.feature_tab_item_active {
+    border-bottom: 2px solid var(--pink_color);
+    color: var(--pink_color)
+}
+
+.feature_tab_item_active a {
+    color: var(--pink_color)
+}
+
+.container_features_content {
+    width:100%;
+    height: 475px;
+    position:relative;
+}
+
+.positioning_container_features_content {
+    position:absolute;
+    top:73px;
+    bottom:0;
+    left:0;
+    right:0;
+    color: var(--white_color);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.features_content_left,
+.features_content_right {
+    width:45%;
+    height:100%;
+    position:relative;
+}
+
+.features_content_right img {
+    border-radius:3px;
+}
+
+.features_content_left p {
+    margin: 40px 0px
+}
+
+
+
+
+/* ------------------------------------------ 
+*  Responsive Grid Media Queries - 1280, 1024, 768, 480
+*   1280-1024   - desktop (default grid)
+*   1024-768    - tablet landscape
+*   768-480     - tablet 
+*   480-less    - phone landscape & smaller
+* --------------------------------------------
+*/
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+
+}
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .positioning_container_features_content {
+        display:block
+    }
+
+    .container_features_content {
+        height:800px;
+    }
+
+    .features_content_left,
+    .features_content_right {
+        width:fit-content;
+        height:unset;
+
+    }
+    .features_content_right {
+        margin: 0 auto;
+    }
+
+    .container_features div[class^="button"]  {
+        display:block;
+        margin: 0 auto;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .positioning_container_features_content {
+        display:block
+    }
+
+    .container_features_content {
+        height:800px;
+    }
+
+    .features_content_left,
+    .features_content_right {
+        width:fit-content;
+        height:unset;
+
+    }
+    .features_content_right {
+        margin: 0 auto;
+    }
+
+    .container_features div[class^="button"]  {
+        display:block;
+        margin: 0 auto;
+    }  
+}
+
+@media all and (max-width: 480px) {
+    
+    .container_testimonials {
+        height: 500px;
+        margin: 40px auto;
+    }
+
+    .positioning_container_features_content {
+        display:block
+    }
+
+    .container_features_content {
+        height:620px;
+    }
+
+
+    .container_buttons_testimonials {
+        bottom:-10%;
+        
+    }
+
+
+    .features_content_left,
+    .features_content_right {
+        width:fit-content;
+        height:unset;
+
+    }
+    .features_content_right {
+        margin: 0 auto;
+    }
+
+    .container_features div[class^="button"]  {
+        display:block;
+        margin: 0 auto;
+    }
+
+    .feature_tab_item {
+        cursor:pointer;
+        padding: 0px 15px 15px 15px;
+    }
+}

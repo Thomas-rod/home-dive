@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;700&family=Roboto+Mono:wght@200;300;400;500;600;700&family=Rubik+Mono+One:wght@400&display=swap');
+
+:root {
+  --green_color: #26CEA9;
+  --dark_color: #202024;
+  --darkgray_color: #222444;
+  --pink_color: #FF00B8;
+  --purple_color: #7A18F6;
+  --white_color: #FFFFFF;
+}
+main {
+  overflow:hidden;
+}
+body {
+  /* cursor:none; */
+  background-color: var(--dark_color);
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Roboto Mono, Montserrat, serif, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+li,
+ul,
+input {
+  margin:0;
+  padding:0;
+  font-weight:normal;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration:none;
+}
+
+* {
+  box-sizing: border-box;
+}
+ul {
+  list-style:none;
+}
+
+
+span::-moz-selection,
+span::selection,
+h1::-moz-selection,
+h1::selection, 
+h2::-moz-selection,
+h2::selection, 
+h3::-moz-selection,
+h3::selection, 
+p::-moz-selection,
+p::selection {
+  background: var(--pink_color);
+}

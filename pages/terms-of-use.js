@@ -1,9 +1,9 @@
 import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
+import Layout, { siteTitle } from '../common/components/layout'
 
-import styles from '../styles/TermsOfUse.module.css'
-import teamStyle from '../styles/Team.module.css'
-import utilStyle from '../styles/utils.module.css'
+import styles from '../common/styles/TermsOfUse.module.css'
+import fontStyle from '../common/styles/utils/fonts.module.css'
+import spacingStyle from '../common/styles/utils/spacing.module.css'
 
 export default function TermsOfUse() {
     return (
@@ -11,10 +11,11 @@ export default function TermsOfUse() {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <div className={teamStyle.containerTeam}>
-                <h1 className={`${utilStyle.headingTitle} ${utilStyle.bold}`}>Terms of Use</h1>
-                <p className={utilStyle.headingSubTitle}>Updated January 13, 2021</p>
-                <div className={styles.container}>
+
+            <div className={`${spacingStyle.container}`}>
+                <h1 className={`${fontStyle.headingTitle} ${fontStyle.__bold} ${fontStyle.__white}`}>Terms of Use</h1>
+                <p className={`${fontStyle.headingSubTitle} ${fontStyle.__white}`}>Updated January 13, 2021</p>
+                <div className={`${styles.container} ${fontStyle.__white}`}>
                     <h2 className={styles.header}>1. GENERAL</h2>
                     <p className={styles.paragraphe}>1.1 These General Terms and Conditions of Use together with the Order Confirmation and Special Terms (as defined in the Order Confirmation), if any, constitute the entire “Agreement” between the Parties. The “Parties” are the “Company” and the “Customer,” collectively, or a “Party” separately, and are defined as follows: (a) the “Company” or “Dive”, and (b) the “Customer” refers to and describes the customer/subscriber accessing, having the ability to access, or otherwise has the Company’s permission, authorization, or confirmation to access Company’s Dive subscription or otherwise its services, products, and/or content.  “Dive” refers to and describes any Dive product and/or service, as well as any other product and/or service affiliated with or otherwise connected to the Dive product and/or service. The “Order Confirmation” refers to and describes the approval, authorization, or otherwise the confirmation received upon subscribing to or agreeing to be subscribed to Dive.</p>
                     <p className={styles.paragraphe}>1.2 This Agreement shall govern Customer’s access to and use of Dive and the Company’s products and services purchased by Customer as listed in the Order Confirmation (collectively, “Dive”).  Dive is a subscription provided by Company and its third party providers, as applicable, on and through the domain and sub-domains of Company.</p>
@@ -45,7 +46,7 @@ export default function TermsOfUse() {
                     <h2 className={styles.header}>10. ADDITIONAL PROVISIONS</h2>
                     <p className={styles.paragraphe}>These Terms of Service and any separate agreements whereby we provide you Services shall be governed by and construed in accordance with the laws of 5 Villa Hersent, 75015 Paris.</p>
                     <h2 className={styles.header}>10. CONTACT</h2>
-                    <p className={styles.paragraphe}>Questions about the Terms of Service should be sent at <a className={utilStyle.textUnderline} href="mailto:alexis@diveanalytics.co">alexis@diveanalytics.co.</a></p>
+                    <p className={styles.paragraphe}>Questions about the Terms of Service should be sent at <a className={fontStyle.textUnderline} href="mailto:alexis@diveanalytics.co">alexis@diveanalytics.co.</a></p>
                 </div>
             </div>
         </Layout>

@@ -1,9 +1,10 @@
 import Head from 'next/head'
-import Layout, { siteTitle } from '../components/layout'
+import Layout, { siteTitle } from '../common/components/layout'
 
-import styles from '../styles/TermsOfUse.module.css'
-import utilStyle from '../styles/utils.module.css'
-import teamStyle from '../styles/Team.module.css'
+import styles from '../common/styles/TermsOfUse.module.css'
+import fontStyle from '../common/styles/utils/fonts.module.css'
+import spacingStyle from '../common/styles/utils/spacing.module.css'
+
 
 export default function PrivacyPolicy() {
     return (
@@ -11,10 +12,10 @@ export default function PrivacyPolicy() {
             <Head>
                 <title>{siteTitle}</title>
             </Head>
-            <div className={teamStyle.containerTeam}>
-                <h1 className={`${utilStyle.headingTitle} ${utilStyle.bold}`}>Privacy Policy</h1>
-                <p className={utilStyle.headingSubTitle}>Updated January 13, 2021</p>
-                <div className={styles.container}>
+            <div className={`${spacingStyle.container}`}>
+                <h1 className={`${fontStyle.headingTitle} ${fontStyle.__bold} ${fontStyle.__white}`}>Privacy Policy</h1>
+                <p className={`${fontStyle.headingSubTitle} ${fontStyle.__white}`}>Updated January 13, 2021</p>
+                <div className={`${styles.container} ${fontStyle.__white}`}>
                     <h2 className={styles.header}>Scope</h2>
                     <p className={styles.paragraphe}>PLEASE READ THIS PRIVACY STATEMENT AND NOTICE OF PRIVACY PRACTICES CAREFULLY. This Privacy Statement and Notice of Privacy Practices (“Privacy Policy”) sets forth the privacy practices of Dive. and/or its subsidiaries and affiliates (collectively “We” “Us” or the “Company”). The Privacy Policy governs your use of this website, your use of any affiliated third party websites that may contain a link to this Privacy Policy, or to any pages, facilities, services, or capabilities accessible on or by any top-level Dive, domains owned by us including but not limited to the following; or any subsite, subdomain, subdirectory, virtual site, or virtual directory thereof (each, a “Site” and collectively the “Sites”). This Privacy Policy is intended to be an enterprise wide privacy policy applicable to all data collection by the Company. This Privacy Policy shall apply strictly to information collected in the United States. This Privacy Policy describes how We treat your use of the Sites and when you use our products (“Products”) and services (“Services”) which we define below in the Description of Products and Services section of this Privacy Policy, including the collection, storage, transfer, sharing and handling of your personally identifiable information (“Personally Identifiable Information” or “PII”) and your non-personally identifiable information ( “Non Personally Identifiable Information” or “NPII”) when you utilize the Sites or obtain our Products or Services.</p>
                     <h2 className={styles.header}>Changes or Updates to this Privacy Policy</h2>
@@ -62,7 +63,7 @@ export default function PrivacyPolicy() {
                     <p className={styles.paragraphe}>We may verify the information you provide to obtain our Products and Services through third parties. In the course of such verification, we may receive additional PII about you from such services. In particular, if you use a credit card or debit card to purchase services with us, we may use card authorization and fraud screening services to verify that your card information and address match the information you supplied to us, and that the card has not been reported as lost or stolen.</p>
                     <p className={styles.subHeader}>Non-personally identifiable information</p>
                     <p className={styles.paragraphe}>We may share and disclose your NPII for the purposes described in this statement or where it is collected, or any other legal purpose, including, when and where applicable, sharing and disclosing non-personally identifiable information combined with PII.</p>
-                    <p className={styles.paragraphe}><span className={utilStyle.bold}>Legal Disclosure.</span> We may disclose information about you and your use of the Services if we believe that such disclosure is reasonably necessary to:</p>
+                    <p className={styles.paragraphe}><span className={fontStyle.__bold}>Legal Disclosure.</span> We may disclose information about you and your use of the Services if we believe that such disclosure is reasonably necessary to:</p>
                     <ul>
                         <li>Comply with the law and/or legal process where a formal request has been made (e.g. request from an administrative oversight agency, civil suit, subpoena, court order or judicial or administrative proceeding);</li>
                         <li>Protect or defend our rights and/or property or the rights and property of others;</li>

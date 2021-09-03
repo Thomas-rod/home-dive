@@ -1,0 +1,81 @@
+.image_with_rectangle {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.image_with_rectangle img {
+    border: 3px solid #311FCE !important;
+    border-radius: 6px;
+    z-index:10;
+}
+
+
+.image_with_rectangle video {
+    position:absolute;
+    width:100%;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    z-index:100;
+    border-radius:6px;
+    border: 3px solid #311FCE !important;
+}
+
+.rectangle_behind_image {
+    z-index:-1;
+    height: 100%;
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    transform: translate(10px, 8px);
+    border-radius:6px;
+    border: 3px solid #311FCE !important;
+    background: linear-gradient(230.2deg, rgba(49, 31, 206, 0.67) 12.05%, rgba(83, 0, 255, 0.67) 93.55%);
+}
+
+.video_container {
+    position:relative;
+    
+}
+.video_container video {
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    z-index:100;
+    border-radius:6px;
+    border: 3px solid #311FCE !important;
+}
+
+
+
+/* ------------------------------------------ 
+*  Responsive Grid Media Queries - 1280, 1024, 768, 480
+*   1280-1024   - desktop (default grid)
+*   1024-768    - tablet landscape
+*   768-480     - tablet 
+*   480-less    - phone landscape & smaller
+* --------------------------------------------
+*/
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    
+}
+
+@media all and (max-width: 480px) {
+
+}

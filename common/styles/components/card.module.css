@@ -1,0 +1,74 @@
+.container {
+    padding: 25px 50px;
+    
+}
+
+.container_tesimonial_card {
+    background-color:#FFFFFF;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    bottom:0;
+    border-radius:15px;
+    z-index:-2;
+}
+
+.container_tesimonial_card > div {
+    max-width:50%;
+}
+
+.container_tesimonial_card > div p:nth-child(1) {
+    margin-bottom:40px;
+}
+
+.container_image_with_rectangle {
+    position:relative;
+    width:304px;
+    height:364px;
+}
+
+
+
+
+
+/* ------------------------------------------ 
+*  Responsive Grid Media Queries - 1280, 1024, 768, 480
+*   1280-1024   - desktop (default grid)
+*   1024-768    - tablet landscape
+*   768-480     - tablet 
+*   480-less    - phone landscape & smaller
+* --------------------------------------------
+*/
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    
+}
+
+@media all and (max-width: 480px) {
+    .container_tesimonial_card {
+        display:flex;
+        flex-direction:column-reverse;
+    }
+
+    .container_tesimonial_card > div {
+        max-width:100%;
+        padding: 20px 0px;
+    }
+
+
+    .container_image_with_rectangle  {
+        height:280px;
+        width:210px;
+    }
+}

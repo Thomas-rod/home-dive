@@ -1,0 +1,12 @@
+.container {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    box-shadow: 0px 0px 20px 5px #26CEA9;
+    backdrop-filter:invert(70%);
+    /* opacity:1; */
+    position:absolute;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    z-index:1000;
+}

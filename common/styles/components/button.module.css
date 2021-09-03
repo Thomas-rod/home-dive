@@ -1,0 +1,99 @@
+.button {
+    border-radius:6px;
+    padding: 18px 16px;
+    padding: 18px 16px;
+    display:block;
+    width:fit-content;
+    text-transform: uppercase;
+    font-weight:500;
+    color:#FFFFFF;
+    text-align:center;
+}
+.button_bg {
+    background-color: var(--green_color);
+}
+
+/* BUTTON VINTAGE */
+
+.button_vintage_container {
+    border-radius:6px;
+    width:fit-content;
+    position:relative;
+    -webkit-box-shadow:inset 0px 0px 0px 3px var(--green_color);
+    -moz-box-shadow:inset 0px 0px 0px 3px var(--green_color);
+    box-shadow:inset 0px 0px 0px 3px var(--green_color);
+    background: linear-gradient(212.57deg, rgba(183, 255, 226, 0.1976) -9.85%, rgba(38, 206, 169, 0.1976) 108.48%);
+}
+
+.button_vintage {
+    color: var(--dark_color) !important;
+    cursor:pointer;
+    border: none !important;
+    border-radius:3px 3px 6px 6px !important;
+    padding: 12px 18px !important;
+    transform: translate(0px, -8px);
+    transition: transform 0.05s ease-in-out, background-color 0.05s ease-in-out;
+}
+
+.button_vintage:hover {
+    transform: translate(0px, -6px);   
+}
+
+.button_vintage:active {
+    transform: translate(0px, -2px)
+}
+
+
+/* BUTTON FORM */
+
+.button_form {
+    border: 2px solid var(--green_color);
+    cursor:pointer
+}
+
+
+/* BUTTON NAVBAR */
+
+.button_navbar {
+    padding: 12px 40px !important;
+    background-color: var(--darkgray_color) !important;
+    font-weight:500 !important;
+    align-content:center;
+}
+
+/* BUTTON TEXT */
+
+.button_text {
+    font-weight:500 !important;
+    padding: 12px 40px !important;
+}
+
+
+
+/* BUTTON SLIDER TESTIMONIALS */
+
+
+.button_testimonials_next {
+    transform: rotate(90deg);
+    stroke: var(--green_color);
+}
+
+.button_testimonials_next path {
+    stroke: var(--green_color);
+}
+
+.button_testimonials_next:hover {
+    transform: rotate(90deg) translateY(5px)
+}
+
+.button_testimonials_prev {
+    transform: rotate(-90deg);
+}
+
+.button_testimonials_prev path {
+    stroke: var(--green_color);
+}
+
+.button_testimonials_prev:hover {
+    transform: rotate(-90deg) translateY(5px)
+}

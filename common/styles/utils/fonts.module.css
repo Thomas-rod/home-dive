@@ -1,0 +1,186 @@
+.h1::-moz-selection,
+.h1::selection, 
+.h2::-moz-selection,
+.h2::selection, 
+.h3::-moz-selection,
+.h3::selection, 
+.subtitle::-moz-selection,
+.subtitle::selection, 
+.paragraph::-moz-selection,
+.paragraph::selection {
+    background: var(--pink_color);
+}
+/* ------------------------------- */
+.h1 {
+    font-size: 80px;
+    line-height:70px;
+    font-weight: 700;
+    letter-spacing: 3.43px;
+}
+
+.h2 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.h3 {
+    font-weight: 700;
+    font-size: 35px;
+}
+
+.subtitle {
+    font-size: 25px;
+    line-height: 40px;;
+}
+
+.paragraph {
+    font-size: 20px;
+    letter-spacing: 1.07px;
+}
+
+.input_size {
+    font-size: 18px;
+}
+
+.small_size {
+    font-size: 15px;
+}
+
+.p_ls__negative {
+    letter-spacing: -1.5px;
+}
+
+.p_ls__positive {
+    letter-spacing: 1.1px;
+}
+
+/* ------------------------------- */
+
+.p_fw__700 {
+    font-weight: 700;
+}
+
+.p_fw__600 {
+    font-weight: 600;
+}
+
+.p_fw__400 {
+    font-weight: 400;
+}
+
+.p_fw__200 {
+    font-weight: 200;
+}
+
+/* ------------------------------- */
+
+.montSerrat {
+    font-family: Montserrat, Roboto Mono, sans-serif, serif;
+}
+
+.robotoMono {
+    font-family: Roboto Mono, Montserrat, sans-serif, serif;
+}
+
+.rubikMonoOne {
+    font-family: Rubik Mono One, Roboto Mono, Montserrat, sans-serif, serif;
+}
+
+/* ------------------------------- */
+
+.__bold {
+    font-weight:bold;
+}
+
+.__green {
+    color: var(--green_color);
+}
+
+.__dark {
+    color: var(--dark_color);
+}
+
+.__darkgray {
+    color: var(--darkgray_color);
+}
+
+.__pink {
+    color: var(--pink_color);
+}
+
+.__purple {
+    color: var(--purple_color);
+}
+
+.__white {
+    color: #FFFFFF;
+}
+
+.__uppercase {
+    text-transform:uppercase;
+}
+
+.__align_center {
+    text-align:center;
+}
+
+
+
+
+/* ------------------------------------------ 
+*  Responsive Grid Media Queries - 1280, 1024, 768, 480
+*   1280-1024   - desktop (default grid)
+*   1024-768    - tablet landscape
+*   768-480     - tablet 
+*   480-less    - phone landscape & smaller
+* --------------------------------------------
+*/
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    
+}
+
+@media all and (max-width: 480px) {
+    .h1 {
+        font-size: 42px;
+        line-height:40px;
+        font-weight: 700;
+        letter-spacing: 3.43px;
+    }
+    
+    .h2 {
+        font-size: 36px;
+        font-weight: 700;
+    }
+    
+    .h3 {
+        font-weight: 700;
+        font-size: 24px;
+    }
+    
+    .subtitle {
+        font-size: 18px;
+        line-height: 30px;;
+    
+    }
+    
+    .paragraph {
+        font-size: 12px;
+        letter-spacing: 1.07px;
+    }
+    
+    .input_size {
+        font-size: 16px;
+    }
+    
+    .small_size {
+        font-size: 12px;
+    }
+}
