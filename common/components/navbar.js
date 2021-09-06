@@ -21,7 +21,7 @@ export default function Navbar() {
             
             <div>
                 {/* <Button_Text text="login"/> */}
-                <Button_Navbar text="get your demo" link=""/>
+                <Button_Navbar text="get your demo" withForm={true}/>
             </div> 
         </div>
     )

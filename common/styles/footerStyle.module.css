@@ -44,7 +44,7 @@
     align-items:center;
 }
 
-.container_supported_by > div > div {
+.container_supported_by > div > a {
     margin: auto 30px auto 0px;
 }
 

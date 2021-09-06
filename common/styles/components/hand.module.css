@@ -20,18 +20,17 @@
   
   @keyframes animate_green {
     0% {
-      filter: drop-shadow(0px 0px 1px #fff)
-      drop-shadow(0px 0px 2px #fff)
-      drop-shadow(0px 0px 5px #a8ebdd)
-      drop-shadow(0px 0px 15px #67ddc3)
-      /* drop-shadow(0px 0px 25px #26CEA9); */
+        filter: drop-shadow(0px 0px 1px #fff)
+        drop-shadow(0px 0px 1px #fff)
+        drop-shadow(0px 0px 3px #a8ebdd)
+        drop-shadow(0px 0px 5px #67ddc3)
     }
   
     100% {
-      filter: drop-shadow(0px 0px 3px #fff)
-      drop-shadow(0px 0px 3px #fff)
-      drop-shadow(0px 0px 9px #a8ebdd)
-      drop-shadow(0px 0px 25px #67ddc3)
+      filter: drop-shadow(0px 0px 1px #fff)
+      drop-shadow(0px 0px 1px #fff)
+      drop-shadow(0px 0px 3px #a8ebdd)
+      drop-shadow(0px 0px 5px #67ddc3)
       /* drop-shadow(0px 0px 34px #26CEA9); */
     }
   }
@@ -46,17 +45,17 @@
 @keyframes animate_purple {
     0% {
         filter: drop-shadow(0px 0px 1px #fff)
-        drop-shadow(0px 0px 2px #fff)
-        drop-shadow(0px 0px 5px #a25df9)
-        drop-shadow(0px 0px 15px #7A18F6)
+        drop-shadow(0px 0px 1px #fff)
+        drop-shadow(0px 0px 3px #a25df9)
+        drop-shadow(0px 0px 5px #7A18F6)
         
     }
 
     100% {
-        filter: drop-shadow(0px 0px 3px #fff)
-        drop-shadow(0px 0px 3px #fff)
-        drop-shadow(0px 0px 9px #a25df9)
-        drop-shadow(0px 0px 25px #7A18F6)
+        filter: drop-shadow(0px 0px 1px #fff)
+        drop-shadow(0px 0px 1px #fff)
+        drop-shadow(0px 0px 3px #a25df9)
+        drop-shadow(0px 0px 5px #7A18F6)
     }
 }
 

@@ -16,11 +16,11 @@ export default function Footer() {
             <div className={`${footerStyle.container_content}`}>
                 <div className={`${footerStyle.container_navigation}`}>
                     <div>
-                        <Link href='/#'>
+                        {/* <Link href='/#'>
                             <a>
                                 <p className={`${fontStyle.input_size} ${fontStyle.robotoMono} ${fontStyle.__uppercase} ${fontStyle.p_fw__200} ${fontStyle.p_ls__positive}`}>Login</p>
                             </a>
-                        </Link>
+                        </Link> */}
                         <Link href='/#'>
                             <a>
                                 <p className={`${fontStyle.input_size} ${fontStyle.robotoMono} ${fontStyle.__uppercase} ${fontStyle.p_fw__200} ${fontStyle.p_ls__positive}`}>Get Access</p>
@@ -48,26 +48,46 @@ export default function Footer() {
                     <div className={`${footerStyle.container_supported_by}`}>
                         <p className={`${fontStyle.input_size} ${fontStyle.robotoMono} ${fontStyle.__uppercase} ${fontStyle.p_fw__200} ${fontStyle.p_ls__positive}`}>Supported by</p>
                         <div>
-                            <Image 
-                                src="https://res.cloudinary.com/dad2k5sll/image/upload/v1629920738/station_f_fsakwo.png"
-                                width={82}
-                                height={17}
-                            />
-                            <Image 
-                                src="https://res.cloudinary.com/dad2k5sll/image/upload/v1629920738/the_family_n8rnc2.png"
-                                width={90}
-                                height={60}
-                            />
-                            <Image 
-                                src="https://res.cloudinary.com/dad2k5sll/image/upload/v1629920738/lakestar_dfguul.png"
-                                width={54}
-                                height={54}
-                            />
-                            <Image 
-                                src="https://res.cloudinary.com/dad2k5sll/image/upload/v1629920738/super_capital_yaakkn.png"
-                                width={120}
-                                height={24}
-                            />
+                            <Link passHref={true} href="https://stationf.co/?utm_source=dive&utm_medium=home_page">
+                                <a target="_blank">
+                                <Image 
+                                    src="https://res.cloudinary.com/dad2k5sll/image/upload/v1629920738/station_f_fsakwo.png"
+                                    width={82}
+                                    height={17}
+                                />
+                                </a>
+                            </Link>
+                            
+                            <Link passHref={true} href="https://www.thefamily.co/?utm_source=dive&utm_medium=home_page">
+                            <a target="_blank">
+                                <Image 
+                                    src="https://res.cloudinary.com/dad2k5sll/image/upload/v1629920738/the_family_n8rnc2.png"
+                                    width={90}
+                                    height={60}
+                                />
+                            </a>
+                            </Link>
+                            
+                            <Link passHref={true} href="https://www.lakestar.com/?utm_source=dive&utm_medium=home_page">
+                            <a target="_blank">
+                                <Image 
+                                    src="https://res.cloudinary.com/dad2k5sll/image/upload/v1629920738/lakestar_dfguul.png"
+                                    width={54}
+                                    height={54}
+                                />
+                            </a>
+                            </Link>
+                            
+                            <Link passHref={true} href="https://www.supercapital.vc/?utm_source=dive&utm_medium=home_page">
+                            <a target="_blank">
+                                <Image 
+                                    src="https://res.cloudinary.com/dad2k5sll/image/upload/v1629920738/super_capital_yaakkn.png"
+                                    width={120}
+                                    height={24}
+                                />
+                            </a>
+                            </Link>
+                            
                         </div>
                     </div>
                     <div className={`${footerStyle.container_socials}`}>

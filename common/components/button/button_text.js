@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 export default function Button_Text({text, link, target}) {
     return (
-        <Link href={link || "localhost:3000"}>
+        <Link href={link || "#"}>
             <a target={target} className={`${buttons.button} ${buttons.button_text} ${fonts.paragraph}`}>
                 {text}
             </a>

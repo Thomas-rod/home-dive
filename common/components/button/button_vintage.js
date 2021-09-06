@@ -19,7 +19,7 @@ export default function Button_Vintage({text, link, target, withForm}) {
                     </PopupButton>
         }
         else {
-            return <Link href={link || "localhost:3000"} className="button-form">
+            return <Link href={link || "#"} className="button-form">
                         <a target={target} className={`${buttonStyle.button_vintage} ${buttonStyle.button} ${buttonStyle.button_bg} ${fontStyle.paragraph} ${fontStyle.p_ls__positive}`}>
                             {text || "request access"}
                         </a>

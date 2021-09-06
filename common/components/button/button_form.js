@@ -22,7 +22,7 @@ export default function Button_Form({text, link, target, type, withForm, hiddenF
                     </PopupButton>
         }
         else {
-            return <Link href={link || "localhost:3000"}>
+            return <Link href={link || "#"}>
                 <button type={type} target={target} className={`${buttonStyle.button} ${buttonStyle.button_bg} ${buttonStyle.button_form} ${fontStyle.input_size} ${fontStyle.p_ls__positive}`}>
                     {text}
                 </button>

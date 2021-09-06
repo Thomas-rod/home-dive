@@ -5,7 +5,7 @@ export default function Image_With_Rectangle({src, alt, width, height, type}) {
     const renderVideoOrImage = () => {
         if(type === "video") {
             // return  <div className={`${imageStyle.video_container}`}>
-                        return <video controls={true} autoPlay={true} src="https://res.cloudinary.com/dad2k5sll/video/upload/v1630399800/demo_product_homepage_i5sckd.webm"></video>            
+                        return <video controls={true} playsInline autoPlay muted loop src="https://res.cloudinary.com/dad2k5sll/video/upload/v1630399800/demo_product_homepage_i5sckd.webm"></video>            
                     {/* </div> */}
         }
         else if(type === "image"){

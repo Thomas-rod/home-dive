@@ -3,7 +3,7 @@ const dataQuestionsFaq = [
         id: "question-1",
         question: "Why Dive vs Funnel.io, Supermetrics or Data Studio?",
         answer: "Dive works like a spreadsheet and replace your entire ecommerce analytics stack in a all-in-one platform: No need for multiple softwares that worked poorly together anymore! <br> <br>Dive collects, stores and gives you access to your data in a no-code interface so you can build the most complexe pivot tables in a snap. Watch our demo and see it by yourself!",
-        status:"active",
+        status:"inactive",
     },
     {
         id: "question-2",

@@ -19,8 +19,8 @@ export default function MainBanner() {
                 />
             </div>
             <div className={`${mainBannerStyle.container_content}`}>
-                <Header_H1 text="e-commerce <br>analytics, <br><span class='span' style='color:#26CEA9'>reinvented</span>."/>
-                <Header_Subtitle text="Easy as a spreadsheet, powerful as a BI tool.<br> Dive is the all-in-one analytics playground to help your brand reach new heights."/>
+                <Header_H1 text="Ecommerce <br>analytics, <br><span class='span' style='color:#26CEA9'>reinvented</span>."/>
+                <Header_Subtitle text="Easy as a spreadsheet, powerful as a BI tool.<br> Dive is the all-in-one analytics playground <br>to help your brand reach new heights."/>
                 <Form_Home_Banner/>
             </div>
         </div>

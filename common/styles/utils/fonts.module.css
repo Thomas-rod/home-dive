@@ -12,29 +12,30 @@
 }
 /* ------------------------------- */
 .h1 {
-    font-size: 80px;
+    font-size: 70px;
     line-height:70px;
     font-weight: 700;
     letter-spacing: 3.43px;
 }
 
 .h2 {
-    font-size: 55px;
+    font-size: 45px;
     font-weight: 700;
 }
 
 .h3 {
     font-weight: 700;
-    font-size: 35px;
+    font-size: 32px;
 }
 
 .subtitle {
-    font-size: 25px;
-    line-height: 40px;;
+    font-size: 20px;
+    line-height: 40px;
 }
 
 .paragraph {
-    font-size: 20px;
+    font-size: 16px;
+    line-height: 26px;
     letter-spacing: 1.07px;
 }
 
@@ -124,6 +125,9 @@
     text-align:center;
 }
 
+.__italic {
+    font-style:italic
+}
 
 
 

@@ -24,7 +24,7 @@ export default function Features_Slider() {
               <div className={`${sliderStyle.features_tabs_items}`}>
                 {
                     Features.dataFeatures.map((feature, index) => (
-                        <p  className={`${sliderStyle.feature_tab_item} ${(activeTab === index) ? sliderStyle.feature_tab_item_active : ""} ${fontStyle.paragraph} ${fontStyle.__uppercase} ${fontStyle.__pink} ${fontStyle.__bold}`}
+                        <p  className={`${sliderStyle.feature_tab_item} ${(activeTab === index) ? sliderStyle.feature_tab_item_active : ""} ${fontStyle.subtitle} ${fontStyle.__uppercase} ${fontStyle.__pink} ${fontStyle.__bold}`}
                             key={`feature-${index}`}
                             onClick={() => {setActiveTab(index)}}
                         >
