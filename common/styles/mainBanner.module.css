@@ -57,7 +57,7 @@
 */
 @media all and (min-width: 1480px) {
     .container_gif {
-        top:0%;
+        top:-5%;
         right:-15%;
         height:1050px;
         width:1600px;
