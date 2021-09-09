@@ -9,7 +9,7 @@ export default function Fifth_Banner() {
 
     return (
         <div className={`${fifthBannnerStyle.container} ${spacingStyle.container}`}>
-            <Header_H2 text="'I love running analytics for my store' <br> said no one ever. <br> <span style='color:#26CEA9'> We're changint that.</span>"/>
+            <Header_H2 text="'I love running analytics for my store' <br> said no one ever. <br> <span style='color:#26CEA9'> We're changing that.</span>"/>
             <div className={`${fifthBannnerStyle.container_testimonials}`}>
                 <div className={`${fifthBannnerStyle.left_side}`}>
                     <Header_H2 text="<span style='color:#26CEA9'>Loved</span> by <br>marketers."/>

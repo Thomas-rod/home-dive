@@ -5,7 +5,8 @@ import Text_Side from './font/text_side'
 import spacingStyle from '../styles/utils/spacing.module.css'
 
 import Button_Vintage from './button/button_vintage'
-import HandGreen from './icon/hand_green'
+import HandGreenLeft from './icon/hand_green_left'
+import HandGreenRight from './icon/hand_green_right'
 
 import Image_With_Rectangle from './image/image_with_rectangle'
 
@@ -32,9 +33,9 @@ export default function MainBanner() {
                     />
                 </div>
                 <div className={`${secondBannerStyle.container_button}`}>
-                    <HandGreen side="left" displayMobile={true}/>
+                    <HandGreenLeft displayMobile={true}/>
                     <Button_Vintage text="request your demo" withForm={true}/>
-                    <HandGreen side="right" displayMobile={true}/>
+                    <HandGreenRight displayMobile={true}/>
                 </div>
             </div>
         </div>

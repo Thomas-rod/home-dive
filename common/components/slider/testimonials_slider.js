@@ -43,9 +43,10 @@ export default function Testimonials_Slider() {
                         className={`${cardStyle.container} ${cardStyle.container_tesimonial_card} ${sliderStyle.slide_testimonials} ${slideIndex === index + 1 ? sliderStyle.active_anim_testimonials : ""}`}
                     >
                         <div style={{textAlign: "center"}}>
-                            <p className={`${fontsStyle.h3} ${fontsStyle.montSerrat} ${fontsStyle.__dark} ${fontsStyle.__bold} ${fontsStyle.__italic}`}>{obj.testimonial}</p>
+                            <p className={`${fontsStyle.h3} ${fontsStyle.montSerrat} ${fontsStyle.__dark} ${fontsStyle.p_fw__400} ${fontsStyle.__italic}`}>{obj.testimonial}</p>
                             <p className={`${fontsStyle.paragraph} ${fontsStyle.montSerrat} ${fontsStyle.__dark} ${fontsStyle.__bold}`}>{obj.name}</p>
                             <p className={`${fontsStyle.paragraph} ${fontsStyle.montSerrat} ${fontsStyle.__dark}`}>{obj.job}</p>
+                            <p className={`${fontsStyle.paragraph} ${fontsStyle.montSerrat} ${fontsStyle.__dark}`}>{obj.company}</p>
                             
                         </div>
                         <div className={`${cardStyle.container_image_with_rectangle}`}>

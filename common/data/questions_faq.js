@@ -20,7 +20,7 @@ const dataQuestionsFaq = [
     {
         id: "question-4",
         question: "When will you be available on other platforms like Magento or BigCommerce?",
-        answer: "Yes! We are only available on Shopify for now, but we will expend to other CMS as soon as possible. Request early access to receive our updates and get notified once we are integrating new platforms.",
+        answer: "We are only available on Shopify for now, but we will expend to other CMS as soon as possible. Request early access to receive our updates and get notified once we are integrating new platforms.",
         status:"inactive",
     }
 ]

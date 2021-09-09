@@ -2,7 +2,7 @@ const dataFeatures = [
     {
         id: "feature-1",
         tab_title:'centralize',
-        content_title:"Collect, store and organize all your ecommerce data in ine place",
+        content_title:"Collect, store and organize all your ecommerce data in one place",
         content_text:"Organizing data and leveraging it to take decision has juste become easier with Dive. <br>Welcome to your new data hub that you will actually love using ❤️",
         url:"https://res.cloudinary.com/dad2k5sll/image/upload/v1630505042/centralize_feature_yjqxyb.png",
         alt: "dive-centralize-feature",
