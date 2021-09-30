@@ -9,14 +9,17 @@ export default async(req, res) => {
       body: JSON.stringify({"email": email}),
       method: "post"
     })
+    
+    const jsonReponse = await response.json()
+
     console.log("Reponse -> ", response)
-    console.log("Reponse.json() -> ", await response.json())
+    console.log("Reponse.json() -> ", jsonReponse)
 
     res.status(200).json({ 
       status: "Ok",
       message: "This email have been added to early access list",
       email: body.email,
-      response: await response.json()
+      response: jsonReponse
     })
 
     return res
@@ -25,7 +28,8 @@ export default async(req, res) => {
     res.status(500).json({ 
       status: "Something went wrong",
       message: "Please check the email",
-      email: body.email
+      email: body.email,
+      error: e,
     })
     return res
   }
