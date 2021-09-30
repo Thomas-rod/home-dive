@@ -29,6 +29,7 @@ function Form_Home_Banner() {
                     body: JSON.stringify(formData)
                 })
                 console.log(response)
+                if(response.status === 200) {document.getElementById('email').value = "Thanks ! Stay tuned 🔥"}
                 
             }
             catch(error) {
