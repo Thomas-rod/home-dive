@@ -11,11 +11,9 @@ import { useState } from 'react'
 function Form_Home_Banner() {
 
     const [hiddenFields, setHiddenFields] = useState({email: ""})
-
-    const submitForm = async(event) => {
-        event.preventDefault()
-    };
-
+    const handleOnSubmit = (e) => {
+        e.preventDefault()
+    }
     const onChangeFormHomeBanner = (e) => {
         if(e) {
             setHiddenFields({email: e.target.value})
@@ -23,10 +21,10 @@ function Form_Home_Banner() {
     }
 
     return (
-        <form onSubmit={submitForm} >
+        <form method='post' onSubmit={handleOnSubmit} >
             <div className={form.container}>
-                <input onChange={onChangeFormHomeBanner} id="email" name="email" type="text" autoComplete="name" placeholder="your email" className={`${fonts.input_size} ${form.input_home_banner} ${fonts.robotoMono} ${fonts.p_ls__positive}`}/>
-                <Button_Form type="submit" text="request your early access"  withForm={true} hiddenFields={hiddenFields}/>
+                <input onChange={onChangeFormHomeBanner} id="email" name="email" type="text" autoComplete="email" placeholder="your email" className={`${fonts.input_size} ${form.input_home_banner} ${fonts.robotoMono} ${fonts.p_ls__positive}`}/>
+                <Button_Form type="submit" text={"request early access"}  withForm={true} hiddenFields={hiddenFields}/>
             </div>
             <div className={`${form.snippet_home_banner}`}>
                 <p className={`${fonts.__white} ${fonts.__white}`}>
