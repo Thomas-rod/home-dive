@@ -9,6 +9,8 @@ export default async(req, res) => {
       body: JSON.stringify({"email": email}),
       method: "post"
     })
+    console.log("Reponse -> ", response)
+    console.log("Reponse.json() -> ", await response.json())
 
     res.status(200).json({ 
       status: "Ok",

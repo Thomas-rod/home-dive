@@ -24,24 +24,15 @@ function Form_Home_Banner() {
         if(email.value.includes("@")) {
             console.log(email)
             try {
-                /*
-                const response = await fetch("https://hooks.zapier.com/hooks/catch/7940043/b23dt9d", {
-                    body: JSON.stringify({"email": email.value}),
-                    method: "post"
-                })
-                console.log(response)
-                */
-                ///*
                  const response = await fetch('/api/early-access', {
                     method: 'post', 
                     body: JSON.stringify(formData)
                 })
                 console.log(response)
-                //*/
-            }
-            catch(event) {
-                console.log(event)
                 
+            }
+            catch(error) {
+                console.log(error)
             }
             finally {
                 
