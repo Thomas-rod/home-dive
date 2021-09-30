@@ -12,10 +12,8 @@ function Form_Home_Banner() {
 
     const [hiddenFields, setHiddenFields] = useState({email: ""})
 
-    const clickOnFormHomeBanner = (e) => {
-        if(e) {
-            e.preventDefault();
-        }
+    const submitForm = async(event) => {
+        event.preventDefault()
     };
 
     const onChangeFormHomeBanner = (e) => {
@@ -25,7 +23,7 @@ function Form_Home_Banner() {
     }
 
     return (
-        <form onSubmit={clickOnFormHomeBanner} >
+        <form onSubmit={submitForm} >
             <div className={form.container}>
                 <input onChange={onChangeFormHomeBanner} id="email" name="email" type="text" autoComplete="name" placeholder="your email" className={`${fonts.input_size} ${form.input_home_banner} ${fonts.robotoMono} ${fonts.p_ls__positive}`}/>
                 <Button_Form type="submit" text="request your early access"  withForm={true} hiddenFields={hiddenFields}/>

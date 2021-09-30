@@ -44,7 +44,7 @@ export default function Layout({ children}) {
             }}
           />
 
-          <script data-ad-client="ca-pub-5619393240417230" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          {/* <script data-ad-client="ca-pub-5619393240417230" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> */}
         </Head>
 
         {/* GOOGLE TAG MANAGER (noscript) --> */}
