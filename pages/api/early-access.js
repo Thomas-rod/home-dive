@@ -10,7 +10,7 @@ export default async(req, res) => {
       headers: {},
       method: "post",
       body: {
-        body
+        email: email
       }
     })
     res.statusCode = 200
