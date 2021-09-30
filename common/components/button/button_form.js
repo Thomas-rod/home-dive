@@ -27,8 +27,6 @@ export default function Button_Form({text, link, target, type, withForm, hiddenF
                         >
                             {text}
                         </PopupButton>
-                    {/* <div onClick={handleOnClick}>
-                    </div> */}
             
         }
         else {

@@ -49,7 +49,7 @@ function Form_Home_Banner() {
         <form method='post' onSubmit={handleOnSubmit} >
             <div className={form.container}>
                 <input onChange={onChangeFormHomeBanner} id="email" name="email" type="text" autoComplete="email" placeholder="your email" className={`${fonts.input_size} ${form.input_home_banner} ${fonts.robotoMono} ${fonts.p_ls__positive}`}/>
-                <Button_Form type="submit" text={"request early access"}  withForm={false} hiddenFields={hiddenFields}/>
+                <Button_Form type="submit" text={"request early access"}  withForm={true} hiddenFields={hiddenFields}/>
             </div>
             <div className={`${form.snippet_home_banner}`}>
                 <p className={`${fonts.__white} ${fonts.__white}`}>

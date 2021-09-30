@@ -16,7 +16,7 @@ export default async(req, res) => {
       status: "Ok",
       message: "This email have been added to early access list",
       email: body.email,
-      response: response
+      response: await response.json()
     })
 
     return res
