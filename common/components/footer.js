@@ -26,6 +26,11 @@ export default function Footer() {
                                 <p className={`${fontStyle.input_size} ${fontStyle.robotoMono} ${fontStyle.__uppercase} ${fontStyle.p_fw__200} ${fontStyle.p_ls__positive}`}>Get Access</p>
                             </a>
                         </Link>
+                        <Link passHref={true} href='https://blog.diveanalytics.co/'>
+                            <a target="_blank">
+                                <p className={`${fontStyle.input_size} ${fontStyle.robotoMono} ${fontStyle.__uppercase} ${fontStyle.p_fw__200} ${fontStyle.p_ls__positive}`}>Blog</p>
+                            </a>
+                        </Link>
                         
                         
                     </div>
