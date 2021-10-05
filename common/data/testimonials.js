@@ -17,13 +17,15 @@ const dataTestimonials = [
         image:"https://res.cloudinary.com/dad2k5sll/image/upload/v1630398606/benjamin_asphalte_fwozwu.jpg",
         alt:"testimonial-dive-asphalte",
     },
-    // {
-    //     id: "testimonial-3",
-    //     testimonial:'"Dive changed my life, brought me love and gave me beautiful hair."',
-    //     signature:"Geoffrey Umer, CEO @Ohlala",
-    //     image:"https://res.cloudinary.com/dad2k5sll/image/upload/v1630314187/testimonial_geoffrey_ohlala_ycttv3.jpg",
-    //     alt:"testimonial-dive-ohlala",
-    // },
+    {
+        id: "testimonial-3",
+        testimonial:'"The Dive teams helped us connect and use our live data from our 4 Shopify stores to make better data-driven decisions"',
+        name:"Laure Li",
+        job:"Head of E-Commerce & Digital",
+        company: "@MerciHandy",
+        image:"https://res.cloudinary.com/dad2k5sll/image/upload/v1633429067/image_6483441_kgvxxc.jpg",
+        alt:"testimonial-dive-mercihandy",
+    },
 ]
 
 export default { dataTestimonials }
