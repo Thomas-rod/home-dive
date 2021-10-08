@@ -14,7 +14,7 @@ export default function Third_Banner() {
                 <div className={`${logoStyle.logo_asphalte} ${logoStyle.logo_clients}`}>
                     <Link href="https://www.asphalte.com/?utm_source=dive&utm_medium=home_page" passHref={true}>
                         <a target="_blank">
-                            <Image src="https://res.cloudinary.com/dad2k5sll/image/upload/v1629879362/Asphalte_jozyht.png" layout="fixed" width={200} height={40} quality={100}/>
+                            <Image src="https://res.cloudinary.com/dad2k5sll/image/upload/v1633683174/Asphalte_Logo_RGB_OffWhite_1x_p2avwl.svg" layout="fixed" width={200} height={40} quality={100}/>
                         </a>
                     </Link>
                 </div>
