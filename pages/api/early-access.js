@@ -5,7 +5,7 @@ export default async(req, res) => {
   const email = body.email;
 
   try {
-    const response = await fetch("https://hooks.zapier.com/hooks/catch/7940043/b23dt9d", {
+    const response = await fetch("https://hooks.zapier.com/hooks/catch/10996974/btgo2ep/", {
       body: JSON.stringify({"email": email}),
       method: "post"
     })
