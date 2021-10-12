@@ -19,7 +19,7 @@ const dataTestimonials = [
     },
     {
         id: "testimonial-3",
-        testimonial:'"The Dive teams helped us connect and use our live data from our 4 Shopify stores to make better data-driven decisions"',
+        testimonial:'"The Dive team helped us connect and use our live data from our 4 Shopify stores to make better data-driven decisions"',
         name:"Laure Li",
         job:"Head of E-Commerce & Digital",
         company: "@MerciHandy",
