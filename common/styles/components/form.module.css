@@ -62,7 +62,8 @@
 
 @media all and (max-width: 480px) {
     .container {
-        display:block
+        display:block;
+        width:100%;
     }
 
     .input_home_banner {

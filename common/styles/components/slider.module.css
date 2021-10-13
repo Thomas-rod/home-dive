@@ -68,6 +68,7 @@
 
 .feature_tab_item a {
     color: var(--white_color)
+
 }
 
 .feature_tab_item_active {
@@ -181,7 +182,7 @@
 @media all and (max-width: 480px) {
     
     .container_testimonials {
-        height: 500px;
+        height: 610px;
         margin: 40px auto;
     }
 
@@ -218,5 +219,6 @@
     .feature_tab_item {
         cursor:pointer;
         padding: 0px 15px 15px 15px;
+        font-size:14px;
     }
 }

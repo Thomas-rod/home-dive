@@ -4,9 +4,7 @@ import imageStyle from '../../styles/components/image.module.css'
 export default function Image_With_Rectangle({src, alt, width, height, type}) {
     const renderVideoOrImage = () => {
         if(type === "video") {
-            // return  <div className={`${imageStyle.video_container}`}>
-                        return <video controls={true} playsInline={true} autoPlay={true} muted={true} loop={true} src="https://res.cloudinary.com/dad2k5sll/video/upload/v1630399800/demo_product_homepage_i5sckd.webm"></video>            
-                    {/* </div> */}
+            return <video controls={true} playsInline={true} autoPlay={true} muted={true} loop={true} src="https://res.cloudinary.com/dad2k5sll/video/upload/v1630399800/demo_product_homepage_i5sckd.webm"></video>              
         }
         else if(type === "image"){
             return <Image

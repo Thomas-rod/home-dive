@@ -2,7 +2,7 @@ import footerStyle from '../styles/footerStyle.module.css'
 import fontStyle from '../styles/utils/fonts.module.css'
 import iconStyle from '../styles/components/icon.module.css'
 
-import { faFacebookF, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faFacebookF, faTwitter, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import Image from 'next/image'
@@ -106,6 +106,11 @@ export default function Footer() {
                             <Link href='https://twitter.com/DiveAnalytics' passHref={true}>
                                 <a target="_blank">
                                     <FontAwesomeIcon icon={faTwitter} className={`${iconStyle.icon_socials_footer}`}/>
+                                </a>
+                            </Link>
+                            <Link href='https://www.linkedin.com/company/72219683/' passHref={true}>
+                                <a target="_blank">
+                                    <FontAwesomeIcon icon={faLinkedinIn} className={`${iconStyle.icon_socials_footer}`}/>
                                 </a>
                             </Link>
                         </div>                
