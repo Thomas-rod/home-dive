@@ -12,7 +12,15 @@ import Header_H3 from '../components/font/header_h3'
 export default function Footer() {
     return (
         <footer className={`${footerStyle.container}`}>
-            <Header_H3 text="dive" className={`${fontStyle.montSerrat}`}/>
+            <Link passHref={true} href='#'>
+                <a target="_blank">
+                    <Image 
+                        src="https://res.cloudinary.com/dad2k5sll/image/upload/v1634287247/logo_dive_white_small_d4nqyy.svg"
+                        width={90}
+                        height={35}
+                    />
+                </a>
+            </Link>
             <div className={`${footerStyle.container_content}`}>
                 <div className={`${footerStyle.container_navigation}`}>
                     <div>
