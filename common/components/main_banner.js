@@ -13,7 +13,7 @@ export default function MainBanner() {
             <Navbar/>
             <div className={`${mainBannerStyle.container_bg}`}></div>
             <div className={`${mainBannerStyle.container_gif}`}>
-                <Image 
+                <Image
                     src="https://res.cloudinary.com/dad2k5sll/image/upload/v1629816229/screen_boxp74.gif"
                     layout={"fill"}
                 />

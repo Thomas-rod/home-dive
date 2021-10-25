@@ -16,7 +16,8 @@ export default function Navbar() {
             <Link passHref={true} href='#'>
                 <a target="_blank">
                     <Image 
-                        src="https://res.cloudinary.com/dad2k5sll/image/upload/v1634287247/logo_dive_white_small_d4nqyy.svg"
+                        src={"/logo_dive_white.png"} 
+                        //src="https://res.cloudinary.com/dad2k5sll/image/upload/v1634287247/logo_dive_white_small_d4nqyy.svg"
                         width={100}
                         height={38.25}
                     />

@@ -32,6 +32,17 @@ export default function Layout({ children}) {
           `,
             }}
           />
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `(function (d, u, h, s) {
+                h = d.getElementsByTagName('head')[0];
+                s = d.createElement('script');
+                s.async = 1;
+                s.src = u + new Date().getTime();
+                h.appendChild(s);
+              })(document, 'https://grow.clearbitjs.com/api/pixel.js?k=pk_cbdc92100dfc6544027abb31c4fc9836&v=');`
+            }}
+          />
 
             {/* GOOGLE TAG MANAGER */}
           <script
