@@ -50,7 +50,11 @@ export default function Image_With_Rectangle({src, alt, width, height, type}) {
     const renderVideoOrImage = () => {
         if(type === "video") {
             return shouldUseImage ? (
-                <img src={"/fallback_video.png"} alt="Muted Video" />
+                <Image
+                        src={src || "/fallback_video.png"}
+                        alt={alt || "image-dive-analytics"}
+                        layout="fill"
+                    />
               ) : (
                 <div
                   ref={videoParentRef}
