@@ -1,26 +1,43 @@
 import Image from 'next/dist/client/image'
 import imageStyle from '../../styles/components/image.module.css'
+import ReactPlayer from 'react-player';
 
-
-const isSafari = () => {
-    const ua = navigator.userAgent.toLowerCase();
-    return ua.indexOf("safari") > -1 && ua.indexOf("chrome") < 0;
-  };
 
 export default function Image_With_Rectangle({src, alt, width, height, type}) {
     
 
     const renderVideoOrImage = () => {
         if(type === "video") {
+                  // return <ReactPlayer 
+                  //     id="player-homepage"
+                  //     url={src}
+                  //     config={ {
+                  //         file: {
+                  //             attributes: {
+                  //                 controlsList: "nodownload",
+                  //                 autoPlay: true,
+                  //                 loop: true,
+                  //                 playinline:"true",
+                  //                 muted: true,
+                  //                 controls: true,
+                  //                 preload:"auto",
+                  //             }
+                  //         }
+                  //     } }
+                  // />
+          
                   return <video
+                      
                       loop={true}
                       controls={true}
                       muted={true}
                       autoPlay={false}
+                      volume={null}
                       playsInline={true}
-                      preload="metadata"
-                    >
+                      preload="auto"
+                    >    
                       <source src={src} type="video/mp4" />
+                      
                     </video>
         }
         else if(type === "image"){
