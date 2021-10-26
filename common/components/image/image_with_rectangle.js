@@ -51,7 +51,7 @@ export default function Image_With_Rectangle({src, alt, width, height, type}) {
         if(type === "video") {
             return shouldUseImage ? (
                 <Image
-                        src={src || "/fallback_video.png"}
+                        src={"/fallback_video.png"}
                         alt={alt || "image-dive-analytics"}
                         layout="fill"
                     />
