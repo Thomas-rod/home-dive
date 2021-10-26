@@ -58,6 +58,7 @@ export default function Image_With_Rectangle({src, alt, width, height, type}) {
                     __html: `
                     <video
                       loop
+                      controls
                       muted
                       autoplay
                       playsinline
