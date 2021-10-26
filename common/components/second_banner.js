@@ -27,7 +27,7 @@ export default function MainBanner() {
                 "/>
                 <div className={`${secondBannerStyle.container_image}`}>
                     <Image_With_Rectangle 
-                        src="https://res.cloudinary.com/dad2k5sll/video/upload/v1630398301/demo_product_homepage_thfuc3.mov"
+                        src="https://res.cloudinary.com/dad2k5sll/video/upload/v1630399800/demo_product_homepage_i5sckd.webm"
                         layout={"fill"}
                         type={"video"}
                     />
