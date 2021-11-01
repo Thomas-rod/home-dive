@@ -81,7 +81,7 @@ export default function Footer() {
                             </a>
                             </Link>
                             
-                            <Link passHref={true} href="https://www.lakestar.com/?utm_source=dive&utm_medium=home_page">
+                            {/* <Link passHref={true} href="https://www.lakestar.com/?utm_source=dive&utm_medium=home_page">
                             <a target="_blank">
                                 <Image 
                                     src="https://res.cloudinary.com/dad2k5sll/image/upload/v1629920738/lakestar_dfguul.png"
@@ -99,7 +99,7 @@ export default function Footer() {
                                     height={24}
                                 />
                             </a>
-                            </Link>
+                            </Link> */}
                             
                         </div>
                     </div>
