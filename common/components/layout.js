@@ -16,7 +16,7 @@ export default function Layout({ children}) {
           <meta property="og:url" content="http://www.diveanalytics.co" key="ogurl" />
           <meta property="og:title" content={siteTitle} key="ogtitle" />
           <meta property="og:description" content="Simple & powerful analytics to unleash your brand growth" key="ogdesc" />
-          <meta property="og:image" content="https://homeimagedive.s3.eu-west-3.amazonaws.com/og-image.png"/>
+          <meta property="og:image" content="https://res.cloudinary.com/dad2k5sll/image/upload/v1642177813/og-image_dive_homepage.png"/>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <meta charSet="utf-8" />
           <script async src="https://www.googletagmanager.com/gtag/js?id=G-KR6FGBNXQH"/>
