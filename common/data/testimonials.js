@@ -23,7 +23,7 @@ const dataTestimonials = [
         name:"Laure Li",
         job:"Head of E-Commerce & Digital",
         company: "@MerciHandy",
-        image:"https://res.cloudinary.com/dad2k5sll/image/upload/v1633429067/image_6483441_kgvxxc.jpg",
+        image:"https://res.cloudinary.com/dad2k5sll/image/upload/v1633429067/testimonial_laure_merci_handy.jpg",
         alt:"testimonial-dive-mercihandy",
     },
 ]
