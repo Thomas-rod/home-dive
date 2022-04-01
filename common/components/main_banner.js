@@ -15,6 +15,7 @@ export default function MainBanner() {
             <div className={`${mainBannerStyle.container_gif}`}>
                 <Image
                     src="https://res.cloudinary.com/dad2k5sll/image/upload/v1629816229/screen_boxp74.gif"
+                    // src="https://res.cloudinary.com/dad2k5sll/image/upload/v1648653343/test_main_banner_uffpcj.png"
                     layout={"fill"}
                 />
             </div>

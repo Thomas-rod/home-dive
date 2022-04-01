@@ -100,7 +100,7 @@
 
 .features_content_left,
 .features_content_right {
-    width:45%;
+    width:50%;
     height:100%;
     position:relative;
 }
@@ -140,7 +140,7 @@
 
     .features_content_left,
     .features_content_right {
-        width:fit-content;
+        width:100%;
         height:unset;
 
     }
@@ -165,7 +165,7 @@
 
     .features_content_left,
     .features_content_right {
-        width:fit-content;
+        width:100%;
         height:unset;
 
     }
@@ -203,7 +203,7 @@
 
     .features_content_left,
     .features_content_right {
-        width:fit-content;
+        width:100%;
         height:unset;
 
     }

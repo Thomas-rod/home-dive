@@ -8,27 +8,9 @@ export default function Image_With_Rectangle({src, alt, width, height, type}) {
 
     const renderVideoOrImage = () => {
         if(type === "video") {
-                  // return <ReactPlayer 
-                  //     id="player-homepage"
-                  //     url={src}
-                  //     config={ {
-                  //         file: {
-                  //             attributes: {
-                  //                 controlsList: "nodownload",
-                  //                 autoPlay: true,
-                  //                 loop: true,
-                  //                 playinline:"true",
-                  //                 muted: true,
-                  //                 controls: true,
-                  //                 preload:"auto",
-                  //             }
-                  //         }
-                  //     } }
-                  // />
-          
+            
                   return <video
-                      
-                      loop={true}
+                      loop={false}
                       controls={true}
                       muted={true}
                       autoPlay={false}

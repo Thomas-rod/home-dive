@@ -1,25 +1,26 @@
 .image_with_rectangle {
-    position:absolute;
-    top:0;
+    position:relative;
+    width:100%;
+    height:100%;
+    margin: 0 auto;
+    /* top:0;
     bottom:0;
     left:0;
-    right:0;
+    right:0; */
 }
 
 .image_with_rectangle img {
     border: 3px solid #311FCE !important;
     border-radius: 6px;
     z-index:10;
+    width:100%;
+    z-index:100
 }
 
 
 .image_with_rectangle video {
-    position:absolute;
+    position:relative;
     width:100%;
-    top:0;
-    bottom:0;
-    right:0;
-    left:0;
     z-index:100;
     border-radius:6px;
     border: 3px solid #311FCE !important;

@@ -47,6 +47,20 @@ export default function Third_Banner() {
                         </a>
                     </Link>
                 </div>
+                <div className={`${logoStyle.logo_rpur} ${logoStyle.logo_clients}`}>
+                    <Link href="https://seasonly.fr/?utm_source=dive&utm_medium=home_page" passHref={true}>
+                        <a target="_blank">
+                            <Image src="https://res.cloudinary.com/dad2k5sll/image/upload/v1648651804/seasonly_white_vdtrwe.png" layout="fixed" width={160} height={65} quality={100}/>
+                        </a>
+                    </Link>
+                </div>
+                <div className={`${logoStyle.logo_rpur} ${logoStyle.logo_clients}`}>
+                    <Link href="https://syncprotein.com/?utm_source=dive&utm_medium=home_page" passHref={true}>
+                        <a target="_blank">
+                            <Image src="https://res.cloudinary.com/dad2k5sll/image/upload/v1648652464/sync_white_qqlwpv.png" layout="fixed" width={160} height={65} quality={100}/>
+                        </a>
+                    </Link>
+                </div>
             </div>
         </div>
     )

@@ -44,6 +44,7 @@ export default function Features_Slider() {
                       <Image 
                           src={Features.dataFeatures[activeTab].url}
                           alt={Features.dataFeatures[activeTab].alt}
+                          layout="responsive"
                           width={Features.dataFeatures[activeTab].width}
                           height={Features.dataFeatures[activeTab].height}
                           qualtity={100}
