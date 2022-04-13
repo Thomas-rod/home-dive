@@ -20,9 +20,13 @@ export default function MainBanner() {
                 />
             </div>
             <div className={`${mainBannerStyle.container_content}`}>
-                <Header_H1 text="Business <br>Inteligence for <span class='span' style='color:#26CEA9'>the omnichannel<br> Commerce.</span>"/>
+                <Header_H1 text="Business Intelligence for <span class='span' style='color:#26CEA9'>Commerce data.</span>"/>
                 {/* <Header_H1 text="<span class='span' style='color:#26CEA9'>the omnichannel<br>Commerce</span>."/> */}
-                <Header_Subtitle text="Easy as a spreadsheet, powerful as a BI tool.<br> Dive is the all-in-one analytics playground <br>to help your brand reach new heights."/>
+                 
+                <Header_Subtitle text="
+                                        Dive is the collaborative workspace to<br>
+                                        centralize, explore, and share Commerce data.<br>
+                                    "/>
                 <Form_Home_Banner/>
             </div>
         </div>
