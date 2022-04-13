@@ -39,8 +39,11 @@
 }
 
 .container_content > h1{
-    
     margin-bottom:30px;
+}
+.container_content > h1 > span{
+    display:block;
+    margin-top:40px;
 }
 
 .container_content > p{
@@ -73,6 +76,9 @@
         max-width:100%;
         padding: 65px 40px 65px 40px;
     }
+    .container_content > h1 > span{
+        display:inline;
+    }
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
@@ -86,7 +92,11 @@
     }
 
     .container_content > h1 {
-        margin-bottom:90px;
+        text-align:left;
+        margin-bottom:30px;
+    }
+    .container_content > h1 > span{
+        display:inline;
     }
 }
 
@@ -105,5 +115,8 @@
     .container_content {
         max-width:100%;
         padding: 65px 20px 65px 20px;
+    }
+    .container_content > h1 > span{
+        display:inline;
     }
 }
