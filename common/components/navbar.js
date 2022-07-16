@@ -13,11 +13,10 @@ import placeholderImage from '../../public/og-image.png'
 export default function Navbar() {
     return (
         <div className={navbar.container}>
-            <Link passHref={true} href='#'>
+            <Link passHref={true} href='https://www.diveanalytics.co'>
                 <a target="_blank">
                     <Image 
                         src={"/logo_dive_white.png"} 
-                        //src="https://res.cloudinary.com/dad2k5sll/image/upload/v1634287247/logo_dive_white_small_d4nqyy.svg"
                         width={100}
                         height={38.25}
                     />

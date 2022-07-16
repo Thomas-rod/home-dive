@@ -1,0 +1,76 @@
+
+.container {
+    margin: 90px 30px 90px 90px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.h1 {
+    font-size:55px;
+}
+
+.subtitle {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #969494;
+}
+
+.microtitle {
+    font-family: 'Roboto Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    color: #5B5B5D;
+}
+
+.h4 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #202024;
+}
+
+
+/* ------------------------------------------ 
+*  Responsive Grid Media Queries - 1280, 1024, 768, 480
+*   1280-1024   - desktop (default grid)
+*   1024-768    - tablet landscape
+*   768-480     - tablet 
+*   480-less    - phone landscape & smaller
+* --------------------------------------------
+*/
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        margin: 20px;
+        flex-wrap:wrap;
+        justify-content:space-between;;
+        flex-direction:row;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .container {
+        margin: 20px;
+        flex-direction:column;
+    }
+}
+
+@media all and (max-width: 480px) {
+    .container {
+        margin: 20px;
+        flex-direction:column;
+    }
+}

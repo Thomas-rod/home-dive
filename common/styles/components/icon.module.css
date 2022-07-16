@@ -27,7 +27,13 @@
     margin-right:60px;
 }
 
+.icon_pricing_active {
+    color: #27AE60;
+}
 
+.icon_pricing_disable {
+    color: #969494;
+}
 
 
 
